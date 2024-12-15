@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      .privacy-page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+        gap: 2rem;
+        color: #333;
+      }
+
+      .privacy-section {
+        max-width: 600px;
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 1.5rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .privacy-section h1,
+      .privacy-section h2,
+      .about-section h3,
+      .about-section strong {
+        color: #2a4970;
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+
+      .privacy-section p,
+      .privacy-section ul {
+        color: #555;
+        line-height: 1.6;
+        font-size: 1rem;
+      }
+
+      .privacy-section ul {
+        list-style-type: disc;
+        padding-left: 20px;
+        text-align: left;
+      }
+
+      .privacy-section ul li {
+        margin-bottom: 0.5rem;
+      }
+
+      #page-container a {
+        color: #2a4970;
+      }
+
+      .stack {
+        display: flex;
+        flex-direction: row;
+      }
+
+      @media screen and (max-width: 600px) {
+        .stack {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <div id="three-bar">≡</div>
+        <span id="link-container">
+          <a href="./index.html" class="nav-item">Home</a>
+          <a href="./about.html" class="nav-item">About</a>
+          <a href="./support.html" class="nav-item">Support</a>
+          <a href="./contact.html" class="nav-item">Contact</a>
+          <a href="./privacy.html" class="nav-item">Privacy Policy</a>
+          <a href="./donor.html" class="nav-item">Donor Policy</a>
+        </span>
+      </ul>
+    </nav>
+
+    <div id="page-container">
+      <div class="privacy-page">
+        <section class="privacy-section">
+          <h1>Privacy Policy</h1>
+          <p>
+            Your privacy is important to us. This privacy policy explains how we
+            collect, use, and protect your personal information when you use our
+            website.
+          </p>
+        </section>
+
+        <section class="privacy-section">
+          <h2>Information We Collect</h2>
+          <ul class="stack">
+            <li>
+              Personal Information: Information you provide to us directly, such
+              as when you contact us via email or fill out forms on our website.
+            </li>
+            <li>
+              Usage Data: Information automatically collected, such as your IP
+              address, browser type, and pages visited.
+            </li>
+            <li>
+              Cookies and Tracking Technologies: Information collected through
+              cookies to enhance your browsing experience and serve personalized
+              ads.
+            </li>
+          </ul>
+        </section>
+
+        <section class="privacy-section">
+          <h2>How We Use Your Information</h2>
+          <p>We use the collected data to:</p>
+          <ul class="stack">
+            <li>Provide and maintain our services.</li>
+            <li>Improve user experience and website functionality.</li>
+            <li>Serve personalized advertisements.</li>
+            <li>Communicate with you for support or updates.</li>
+          </ul>
+        </section>
+
+        <section class="privacy-section">
+          <h2>Advertising Cookies</h2>
+          <ul class="stack">
+            <li>
+              Third-party vendors use cookies to serve ads based on a user's
+              prior visits to our website or other websites.
+            </li>
+            <li>
+              The use of advertising cookies enables advertisers and their
+              partners to serve ads to our users based on their visits to our
+              site and/or other sites on the Internet.
+            </li>
+            <li>
+              Users may opt out of third-party vendors' use of cookies by
+              visiting
+              <a
+                href="https://www.aboutads.info"
+                target="_blank"
+                rel="noopener noreferrer"
+                >www.aboutads.info</a
+              >.
+            </li>
+          </ul>
+        </section>
+
+        <section class="privacy-section">
+          <h2>Third-Party Vendors and Ad Networks</h2>
+          <ul class="stack">
+            <li>
+              Third-party vendors and ad networks may also use cookies to serve
+              ads on our website.
+            </li>
+            <li>
+              A list of such vendors and ad networks can be provided upon
+              request, with links to their respective opt-out mechanisms.
+            </li>
+            <li>
+              You may opt out of personalized ads from these third parties by
+              visiting
+              <a
+                href="https://www.aboutads.info"
+                target="_blank"
+                rel="noopener noreferrer"
+                >www.aboutads.info</a
+              >.
+            </li>
+          </ul>
+        </section>
+
+        <section class="privacy-section">
+          <h2>Data Security</h2>
+          <p>
+            We implement reasonable security measures to protect your personal
+            information. However, no system can guarantee absolute security.
+          </p>
+        </section>
+
+        <section class="privacy-section">
+          <h2>Changes to This Policy</h2>
+          <p>
+            We may update this privacy policy from time to time. Please check
+            back periodically for updates.
+          </p>
+        </section>
+
+        <section class="privacy-section">
+          <h2>Contact Us</h2>
+          <p>
+            If you have any questions about this privacy policy, please contact
+            us via our
+            <a href="./contact.html">contact page</a>.
+          </p>
+        </section>
+      </div>
+    </div>
+
+    <div id="copyright">
+      <ul>
+        <li style="color: #555">
+          © 2024 I Ching Oracle Project by Lawrence Aubert III. All rights
+          reserved.
+        </li>
+      </ul>
+    </div>
+
+    <script src="slideNav.js"></script>
+  </body>
+</html>

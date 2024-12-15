@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I Ching</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      .about-page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+        gap: 2rem;
+        color: #333;
+      }
+
+      .about-section {
+        max-width: 600px;
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 1.5rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .about-section h1,
+      .about-section h2,
+      .about-section h3,
+      .about-section strong {
+        color: #2a4970;
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+
+      .about-section p {
+        color: #555;
+        line-height: 1.6;
+        font-size: 1rem;
+      }
+
+      .about-section ul {
+        list-style-type: disc;
+        color: #555;
+        padding-left: 20px;
+        text-align: left;
+      }
+
+      .about-section ul li {
+        margin-bottom: 0.5rem;
+      }
+
+      .pic-icon {
+        margin-right: 15px;
+      }
+
+      .imgz,
+      .pic-icon {
+        margin-left: 10px;
+        width: 25px;
+        height: 25px;
+      }
+
+      #split-box {
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      #input-check-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+
+      .field {
+        margin: 10px;
+        width: 100%;
+      }
+
+      input,
+      textarea {
+        float: none;
+        width: 100%;
+        margin-top: 0.5rem;
+      }
+
+      .checkboxz {
+        height: 15px;
+        width: 15px;
+        margin-right: 10px;
+        transform: translateY(-5px);
+      }
+
+      .actions {
+        width: 300px;
+      }
+
+      #btnz-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+
+      #buttonz {
+        border: none;
+        height: 30px;
+        background-color: rgb(235, 176, 98);
+        cursor: pointer;
+        width: 100px;
+        transform: translateY(-55px);
+      }
+
+      #buttonz:hover {
+        background-color: rgb(237, 154, 47);
+      }
+
+      #page-container a {
+        color: #2a4970;
+        text-decoration: none;
+      }
+
+      @media screen and (max-width: 600px) {
+        #field-box-cont,
+        #copyright {
+          width: 250px;
+        }
+
+        #name,
+        #email,
+        #message {
+          width: 90%;
+        }
+
+        #cr-box {
+          width: 70%;
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <div id="three-bar">≡</div>
+        <span id="link-container">
+          <a href="./index.html" class="nav-item">Home</a>
+          <a href="./about.html" class="nav-item">About</a>
+          <a href="./support.html" class="nav-item">Support</a>
+          <a href="./contact.html" class="nav-item">Contact</a>
+          <a href="./privacy.html" class="nav-item">Privacy Policy</a>
+          <a href="./donor.html" class="nav-item">Donor Policy</a>
+        </span>
+      </ul>
+    </nav>
+
+    <div id="page-container">
+      <div class="about-page">
+        <section class="about-section">
+          <h1>Contact The Developer</h1>
+          <p>
+            Welcome! I'm a software and web developer and passionate seeker of
+            spiritual knowledge. I've created this platform to offer tools to
+            help others connect with the ancient wisdom of the I Ching and to
+            provide a space where anyone can explore this timeless practice.
+            Don't hesitate to reach out if you need my services for projects of
+            your own!
+          </p>
+        </section>
+
+        <section class="about-section">
+          <h2>Find Me At</h2>
+          <ul>
+            <li>
+              <a
+                href="https://github.com/LAubert3"
+                class="icon brands alt fa-linkedin"
+                target="_blank"
+                style="text-decoration: none"
+                onmouseover="this.style.textDecoration='underline';"
+                onmouseout="this.style.textDecoration='none';"
+              >
+                Github
+              </a>
+            </li>
+            <a
+              href="https://github.com/LAubert3"
+              class="icon brands alt fa-linkedin"
+              target="_blank"
+            >
+              <img class="pic-icon" src="./img/github.png" alt="" />
+            </a>
+
+            <li>
+              <a
+                href="https://www.linkedin.com/in/lawrence-a-269325211/"
+                class="icon brands alt fa-linkedin"
+                target="_blank"
+                style="text-decoration: none"
+                onmouseover="this.style.textDecoration='underline';"
+                onmouseout="this.style.textDecoration='none';"
+              >
+                Linked In
+              </a>
+            </li>
+            <a
+              href="https://www.linkedin.com/in/lawrence-a-269325211/"
+              class="icon brands alt fa-linkedin"
+              target="_blank"
+            >
+              <img class="pic-icon" src="./img/linkedin.png" alt="" />
+            </a>
+          </ul>
+        </section>
+      </div>
+
+      <div id="split-box">
+        <div>
+          <section>
+            <form method="POST" action="https://formspree.io/f/xdorqlov">
+              <div id="field-box-cont" class="fields">
+                <div class="field">
+                  <label for="name" style="color: #2a4970; font-weight: 600"
+                    >Name</label
+                  >
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="your name"
+                    autocomplete="on"
+                    autocorrect="off"
+                    autocapitalize="off"
+                    spellcheck="false"
+                  />
+                </div>
+                <div class="field">
+                  <label for="email" style="color: #2a4970; font-weight: 600"
+                    >Email</label
+                  >
+                  <input
+                    type="text"
+                    name="email"
+                    id="email"
+                    placeholder="your email"
+                    autocomplete="on"
+                    autocorrect="off"
+                    autocapitalize="off"
+                    spellcheck="false"
+                  />
+                </div>
+                <div id="labl" class="field">
+                  <label
+                    id="lbl"
+                    for="message"
+                    style="color: #2a4970; font-weight: 600"
+                    >Message</label
+                  >
+                  <textarea name="message" id="message" rows="3"></textarea>
+                </div>
+              </div>
+            </form>
+
+            <ul id="check-cont-text-box" class="actions">
+              <li id="input-check-box">
+                <input
+                  type="checkbox"
+                  class="checkboxz"
+                  id="robotz"
+                  onclick="showButton()"
+                />
+                <label for="robotz">I'm not a robot</label>
+
+                <img
+                  id="human-or-robot"
+                  src="./img/robot.png"
+                  alt="Robot"
+                  class="imgz"
+                />
+              </li>
+            </ul>
+            <div id="btnz-box">
+              <input type="submit" value="Send" id="buttonz" />
+            </div>
+            <input type="hidden" name="_replyto" value="so7ar@protonmail.com" />
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <div id="copyright">
+      <ul id="cr-box">
+        <li style="color: #555">
+          © 2024 I Ching Oracle Project by Lawrence Aubert III. All rights
+          reserved.
+        </li>
+
+        <a
+          href="https://www.flaticon.com/free-icons/refresh"
+          title="refresh icons"
+          target="_blank"
+          style="color: #2a4970; text-decoration: none"
+          onmouseover="this.style.textDecoration='underline';"
+          onmouseout="this.style.textDecoration='none';"
+          >Refresh icons created by Freepik - Flaticon</a
+        >
+
+        <a
+          href="https://www.flaticon.com/free-icons/cat"
+          title="cat icons"
+          target="_blank"
+          style="color: #2a4970; text-decoration: none"
+          onmouseover="this.style.textDecoration='underline';"
+          onmouseout="this.style.textDecoration='none';"
+          >Cat icons created by Dave Gandy - Flaticon</a
+        >
+
+        <a
+          href="https://www.flaticon.com/free-icons/linkedin"
+          title="linkedin icons"
+          target="_blank"
+          style="color: #2a4970; text-decoration: none"
+          onmouseover="this.style.textDecoration='underline';"
+          onmouseout="this.style.textDecoration='none';"
+          >Linkedin icons created by riajulislam - Flaticon</a
+        >
+
+        <a
+          href="https://www.flaticon.com/free-icons/validate"
+          title="validate icons"
+          target="_blank"
+          style="color: #2a4970; text-decoration: none"
+          >Validate icons created by meaicon - Flaticon</a
+        >
+      </ul>
+    </div>
+
+    <script>
+      const checkbox = document.getElementById('robotz')
+      const nameItem = document.getElementById('name')
+      const email = document.getElementById('email')
+      const textArea = document.getElementById('message')
+      const check = document.getElementById('check-cont-text-box')
+      const box = document.getElementById('btnz-box')
+      const robotIcon = document.getElementById('human-or-robot')
+
+      function showButton() {
+        ;[nameItem, email, textArea].forEach((element) => {
+          element.style.transition = 'background-color 0.5s ease'
+        })
+
+        if (checkbox.checked == true) {
+          robotIcon.src = './img/check.png'
+          setTimeout(function () {
+            check.style.visibility = 'hidden'
+            box.style.visibility = 'visible'
+            nameItem.style.backgroundColor = 'white'
+            email.style.backgroundColor = 'white'
+            textArea.style.backgroundColor = 'white'
+            nameItem.style.cursor = 'pointer'
+            email.style.cursor = 'pointer'
+            textArea.style.cursor = 'pointer'
+            nameItem.disabled = false
+            email.disabled = false
+            textArea.disabled = false
+          }, 1000)
+        } else {
+          check.style.visibility = 'visible'
+          box.style.visibility = 'hidden'
+          nameItem.style.backgroundColor = 'bisque'
+          email.style.backgroundColor = 'bisque'
+          textArea.style.backgroundColor = 'bisque'
+          nameItem.style.cursor = 'default'
+          email.style.cursor = 'default'
+          textArea.style.cursor = 'default'
+          nameItem.disabled = true
+          email.disabled = true
+          textArea.disabled = true
+        }
+      }
+      showButton()
+    </script>
+
+    <script src="slideNav.js"></script>
+  </body>
+</html>
