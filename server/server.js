@@ -10,24 +10,25 @@ const storeItems = new Map([
 ])
 
 app.post('/create-checkout-session', async (req, res) => {
-    try {
-      const { priceInCents, donationType } = req.body;
-  
-      let priceId = null;
-      if (donationType === 'subscription') {
-        const price = await stripe.prices.create({
-          unit_amount: priceInCents,
-          currency: 'usd',
-          recurring: { interval: 'month' },
-          product: 'prod_ROxvBG166SCn04',
-        });
-        priceId = price.id;
-      }
-  
-      const session = await stripe.checkout.sessions.create({
-        payment_method_types: ['card'],
-        mode: donationType,
-        line_items: donationType === 'subscription'
+  try {
+    const { priceInCents, donationType } = req.body
+
+    let priceId = null
+    if (donationType === 'subscription') {
+      const price = await stripe.prices.create({
+        unit_amount: priceInCents,
+        currency: 'usd',
+        recurring: { interval: 'month' },
+        product: 'prod_ROxvBG166SCn04',
+      })
+      priceId = price.id
+    }
+
+    const session = await stripe.checkout.sessions.create({
+      payment_method_types: ['card'],
+      mode: donationType,
+      line_items:
+        donationType === 'subscription'
           ? [
               {
                 price: priceId,
@@ -44,13 +45,13 @@ app.post('/create-checkout-session', async (req, res) => {
               },
               quantity: item.quantity,
             })),
-        success_url: `${process.env.SERVER_URL}/thanks.html`,
-        cancel_url: `${process.env.SERVER_URL}/support.html`,
-      });
-  
-      res.json({ url: session.url });
-    } catch (e) {
-      res.status(500).json({ error: e.message });
-    }
-  });
-  app.listen(3000)
+      success_url: `${process.env.SERVER_URL}/thanks.html`,
+      cancel_url: `${process.env.SERVER_URL}/support.html`,
+    })
+
+    res.json({ url: session.url })
+  } catch (e) {
+    res.status(500).json({ error: e.message })
+  }
+})
+app.listen(3000)
