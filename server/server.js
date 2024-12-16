@@ -2,8 +2,9 @@ require('dotenv').config()
 const express = require('express')
 const app = express()
 app.use(express.json())
-app.use(express.static('public'))
+app.use(express.static(__dirname + '/../'))
 const stripe = require('stripe')(process.env.STRIPE_PRIVATE_KEY)
+const PORT = process.env.PORT || 3000
 
 const storeItems = new Map([
   [1, { name: 'Support the I Ching Oracle Project' }],
@@ -54,4 +55,4 @@ app.post('/create-checkout-session', async (req, res) => {
     res.status(500).json({ error: e.message })
   }
 })
-app.listen(3000)
+app.listen(PORT)
