@@ -342,7 +342,7 @@ const hexagrams = {
     ],
   },
   21: {
-    name: '噬嗑 (Shì Hè) - Biting Through',
+    name: '噬嗑 (Shì Kè) - Biting Through',
     mainExplanation: {
       image:
         'Thunder and lightning: The image of biting through. Thus the kings of former times made firm the laws Through clearly defined penalties.',
@@ -422,7 +422,7 @@ const hexagrams = {
     ],
   },
   26: {
-    name: '大畜 (Dà Chù) - The Taming Power of the Great',
+    name: '大畜 (Dà Xù) - The Taming Power of the Great',
     mainExplanation: {
       image:
         'Heaven within the mountain: The image of the taming power of the great. Thus the superior man acquaints himself with many sayings of antiquity And many deeds of the past, In order to strengthen his character thereby.',
