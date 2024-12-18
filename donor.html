@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donor Policy</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      .policy-page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+        gap: 2rem;
+        color: #333;
+      }
+
+      .policy-section {
+        max-width: 600px;
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 1.5rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .policy-section h1,
+      .policy-section h2,
+      .policy-section h3,
+      .policy-section strong {
+        color: #2a4970;
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+
+      .policy-section p {
+        color: #555;
+        line-height: 1.6;
+        font-size: 1rem;
+      }
+
+      .policy-section ul {
+        list-style-type: disc;
+        color: #555;
+        padding-left: 20px;
+        text-align: left;
+      }
+
+      .policy-section ul li {
+        margin-bottom: 0.5rem;
+      }
+
+      #page-container a {
+        color: #2a4970;
+      }
+
+      .stack {
+        display: flex;
+        flex-direction: row;
+      }
+
+      @media screen and (max-width: 600px) {
+        .stack {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <div id="three-bar">≡</div>
+        <span id="link-container">
+          <a href="./index.html" class="nav-item">Home</a>
+          <a href="./about.html" class="nav-item">About</a>
+          <a href="./support.html" class="nav-item">Support</a>
+          <a href="./contact.html" class="nav-item">Contact</a>
+          <a href="./privacy.html" class="nav-item">Privacy Policy</a>
+          <a href="./donor.html" class="nav-item">Donor Policy</a>
+        </span>
+      </ul>
+    </nav>
+
+    <div id="page-container">
+      <div class="policy-page">
+        <section class="policy-section">
+          <h1>Donor Policy</h1>
+          <p>
+            Your trust is important to us. This Donor Policy explains how we
+            handle your personal and financial information when you make a
+            donation through our platform. By donating, you agree to the terms
+            outlined in this policy.
+          </p>
+        </section>
+
+        <section class="policy-section">
+          <h2>Information We Collect</h2>
+          <p>We collect the following information when you make a donation:</p>
+          <ul class="stack">
+            <li>Your name, email address, and billing address.</li>
+            <li>
+              Payment details (processed securely through our payment provider).
+            </li>
+            <li>
+              Any optional information you provide, such as donation preferences
+              or comments.
+            </li>
+          </ul>
+        </section>
+
+        <section class="policy-section">
+          <h2>How We Use Your Information</h2>
+          <p>The information you provide is used for the following purposes:</p>
+          <ul class="stack">
+            <li>Processing and acknowledging your donation.</li>
+            <li>Sending donation receipts and updates about our work.</li>
+            <li>Meeting legal and regulatory obligations.</li>
+          </ul>
+          <p>
+            We do not sell, trade, or share your financial information with
+            anyone outside our organization and its service providers, except as
+            required by law.
+          </p>
+        </section>
+
+        <section class="policy-section">
+          <h2>Recurring Donations</h2>
+          <p>
+            For recurring donors, fixed monthly payments will be debited on the
+            monthly anniversary of the first donation. Donations initiated on
+            the 29th, 30th, or 31st of the month will recur on the last day of
+            shorter months, as close to the original date as possible. You may
+            cancel or update your recurring donation at any time by contacting
+            us.
+          </p>
+        </section>
+
+        <section class="policy-section">
+          <h2>Data Sharing and Security</h2>
+          <p>
+            Your personal and financial data may be shared with trusted
+            third-party service providers to facilitate payment processing and
+            donation management. These providers comply with strict data
+            protection standards to ensure your information is secure.
+          </p>
+          <p>
+            All payment information is encrypted and processed securely using
+            industry-leading payment gateways. We do not store your financial
+            details on our servers.
+          </p>
+        </section>
+
+        <section class="policy-section">
+          <h2>Donor Rights</h2>
+          <p>As a donor, you have the following rights:</p>
+          <ul class="stack">
+            <li>To access, update, or delete your personal information.</li>
+            <li>To opt out of receiving communications from us.</li>
+            <li>To request a record of your donations.</li>
+          </ul>
+          <p>
+            To exercise these rights, please contact us using the information
+            provided below.
+          </p>
+        </section>
+
+        <section class="policy-section">
+          <h2>International Donations</h2>
+          <p>
+            If you are donating from outside the United States, please be aware
+            that your data may be processed and stored in countries with
+            different privacy laws. By donating, you consent to this transfer of
+            data.
+          </p>
+        </section>
+
+        <section class="policy-section">
+          <h2>Policy Updates</h2>
+          <p>
+            This Donor Policy is subject to change. We will notify donors of
+            significant updates through our website or email. Please review this
+            policy periodically to stay informed.
+          </p>
+        </section>
+
+        <section class="policy-section">
+          <h2>Contact Us</h2>
+          <p>
+            If you have any questions or concerns about our Donor Policy, please
+            <a href="./contact.html">contact</a> us.
+          </p>
+        </section>
+      </div>
+    </div>
+
+    <div id="copyright">
+      <ul>
+        <li style="color: #555">
+          © 2024 I Ching Oracle Project by Lawrence Aubert III. All rights
+          reserved.
+        </li>
+      </ul>
+    </div>
+
+    <script src="slideNav.js"></script>
+  </body>
+</html>

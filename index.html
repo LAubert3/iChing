@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I Ching</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <div id="three-bar">≡</div>
+        <span id="link-container">
+          <a href="./index.html" class="nav-item">Home</a>
+          <a href="./about.html" class="nav-item">About</a>
+          <a href="./support.html" class="nav-item">Support</a>
+          <a href="./contact.html" class="nav-item">Contact</a>
+          <a href="./privacy.html" class="nav-item">Privacy Policy</a>
+          <a href="./donor.html" class="nav-item">Donor Policy</a>
+        </span>
+      </ul>
+    </nav>
+
+    <div id="page-container">
+      <span class="container" id="cont">
+        <div id="square-id" class="square">
+          <div id="id6" class="box"></div>
+          <div id="id5" class="box"></div>
+          <div id="id4" class="box"></div>
+          <div id="id3" class="box"></div>
+          <div id="id2" class="box"></div>
+          <div id="id1" class="box"></div>
+        </div>
+      </span>
+
+      <div id="layout-box">
+        <span class="container">
+          <button id="clear">Clear</button>
+        </span>
+
+        <div id="form-div">
+          <form id="form">
+            <span>
+              <input
+                type="radio"
+                id="option1"
+                name="choice"
+                value="1"
+                checked
+              />
+              <label for="option1">Manual</label><br />
+            </span>
+
+            <span>
+              <input type="radio" id="option2" name="choice" value="2" />
+              <label for="option2">Automatic</label><br />
+            </span>
+          </form>
+        </div>
+      </div>
+
+      <div id="toss-container" class="container">
+        <span id="span1">
+          <div>Coin Toss:</div>
+          <select id="cast" name="options">
+            <option disabled selected></option>
+            <option value="d1">3 Heads</option>
+            <option value="d0">3 Tails</option>
+            <option value="1">2 Heads 1 Tails</option>
+            <option value="0">1 Heads 2 Tails</option>
+          </select>
+
+          <button id="enterBtn">Enter</button>
+        </span>
+
+        <span id="span2">
+          <div>API Key:<span id="info-span">ⓘ</span></div>
+          <div class="icon-container">
+            <div class="tooltip">
+              <p>Additional information.</p>
+              <a href="./about.html">Click here for instructions.</a>
+            </div>
+          </div>
+
+          <div id="auto-div">
+            <input id="inputAPI" type="text" />
+            <button id="autoBtn">Start</button>
+            <div id="autoCover">Tossing...</div>
+
+
+            <div id="rollCage" class="lds-roller">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+        </span>
+      </div>
+
+      <div id="output-container" class="container">
+        <div class="container" id="output">
+          <span id="name"></span>
+          <span id="mainImg"></span>
+          <span id="main"></span>
+          <span id="line"></span>
+          <span id="other"></span>
+        </div>
+      </div>
+    </div>
+
+    <div id="copyright">
+      <ul>
+        <li style="color: #555">
+          © 2024 I Ching Oracle Project by Lawrence Aubert III. All rights
+          reserved.
+        </li>
+      </ul>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="slideNav.js"></script>
+  </body>
+</html>
