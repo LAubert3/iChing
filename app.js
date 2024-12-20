@@ -46,7 +46,7 @@ const hexagrams = {
     },
     lineExplanations: [
       'When there is hoarfrost underfoot, Solid ice is not far off.',
-      'Straight, square, great. Without purpose, Yet nothing remains unfurthered.',
+      'Straight, square, great. Without purpose, yet nothing remains unfurthered.',
       'Hidden lines. One is able to remain persevering. If you follow the way of the receptive, you will have peace.',
       'A tied-up sack. No blame, no praise.',
       'A yellow lower garment brings supreme good fortune.',
@@ -63,7 +63,7 @@ const hexagrams = {
     lineExplanations: [
       'Hesitation and hindrance. It furthers one to remain persevering. It furthers one to appoint helpers.',
       'Difficulties pile up. Horse and wagon part. He is not a robber; he wants to woo at the right time. As a result, he does not succeed. To go meets with approval.',
-      'Whoever hunts deer without the forester Only loses his way in the forest. The superior man understands the signs of the time And prefers to desist. To go on brings humiliation.',
+      'Whoever hunts deer without the forester only loses his way in the forest. The superior man understands the signs of the time And prefers to desist. To go on brings humiliation.',
       'Horse and wagon part. Strive for union. To go brings good fortune. Everything acts to further.',
       'Difficulties pile up. Horse and wagon part. He is not a robber; he wants to woo at the right time. As a result, he does not succeed. To go meets with approval.',
       'Difficulties pile up. Horse and wagon part. He is not a robber; he wants to woo at the right time. As a result, he does not succeed. To go meets with approval.',
@@ -90,7 +90,7 @@ const hexagrams = {
     mainExplanation: {
       image:
         'Clouds rise up to heaven: The image of waiting. Thus the superior man eats and drinks, is joyous and of good cheer.',
-      text: 'Waiting. If you are sincere, You have light and success. Perseverance brings good fortune. It furthers one to cross the great water.',
+      text: 'Waiting. If you are sincere, you have light and success. Perseverance brings good fortune. It furthers one to cross the great water.',
     },
     lineExplanations: [
       'Waiting in the meadow. It furthers one to abide in what endures. No blame.',
@@ -109,12 +109,12 @@ const hexagrams = {
       text: 'Conflict. You are sincere and are being obstructed. A cautious halt halfway brings good fortune. Going through to the end brings misfortune. It furthers one to see the great man. It does not further one to cross the great water.',
     },
     lineExplanations: [
-      'If one does not perpetuate the affair, There is a little gossip. In the end, good fortune comes.',
-      "One cannot engage in conflict; one returns home, gives way. The people of one's town, Three hundred households, remain free of guilt.",
+      'If one does not perpetuate the affair, there is a little gossip. In the end, good fortune comes.',
+      "One cannot engage in conflict; one returns home, gives way. The people of one's town, three hundred households, remain free of guilt.",
       'To nourish oneself on ancient virtue induces perseverance. Danger. In the end, good fortune comes. If by chance you are in the service of a king, Seek not works.',
       "One cannot engage in conflict, one turns back and submits to fate, changes one's attitude, and finds peace in perseverance. Good fortune.",
       'To contend before him Brings supreme good fortune.',
-      'Even if by chance a leather belt is bestowed on one, By the end of a morning, It will have been snatched away three times.',
+      'Even if by chance a leather belt is bestowed on one, by the end of a morning, it will have been snatched away three times.',
     ],
   },
   7: {
@@ -122,7 +122,7 @@ const hexagrams = {
     mainExplanation: {
       image:
         'In the middle of the earth is water: The image of the army. Thus the superior man increases his masses by generosity toward the people.',
-      text: 'The Army. The army needs perseverance And a strong man. Good fortune without blame.',
+      text: 'The Army. The army needs perseverance and a strong man. Good fortune without blame.',
     },
     lineExplanations: [
       'An army must set forth in proper order. If the order is not good, misfortune threatens.',
@@ -130,7 +130,7 @@ const hexagrams = {
       'Perchance the army carries corpses in the wagon. Misfortune.',
       'The army retreats. No blame.',
       'There is game in the field. It furthers one to catch it. Without blame. Let the eldest lead the army. The younger transports corpses; then perseverance brings misfortune.',
-      'The great prince issues commands, Founds states, vests families with fiefs. Inferior people should not be employed.',
+      'The great prince issues commands, founds states, vests families with fiefs. Inferior people should not be employed.',
     ],
   },
   8: {
@@ -138,10 +138,10 @@ const hexagrams = {
     mainExplanation: {
       image:
         'Water on the face of the earth: The image of holding together. Thus the kings of antiquity bestowed the different states as fiefs and cultivated friendly relations with the feudal lords.',
-      text: 'Holding Together brings good fortune. Inquire of the oracle once again Whether you possess sublimity, constancy, and perseverance; Then there is no blame. Those who are uncertain gradually join. Whoever comes too late Meets with misfortune.',
+      text: 'Holding together brings good fortune. Inquire of the oracle once again whether you possess sublimity, constancy, and perseverance; then there is no blame. Those who are uncertain gradually join. Whoever comes too late teets with misfortune.',
     },
     lineExplanations: [
-      'Hold to him in truth and loyalty; This is without blame. Truth, like a full earthen bowl: Thus in the end Good fortune comes from without.',
+      'Hold to him in truth and loyalty; this is without blame. Truth, like a full earthen bowl: Thus in the end good fortune comes from without.',
       'Hold to him inwardly. Perseverance brings good fortune.',
       'You hold together with the wrong people.',
       'Hold to him outwardly also. Perseverance brings good fortune.',
@@ -153,16 +153,16 @@ const hexagrams = {
     name: '小畜 (Xiǎo Chù) - The Taming Power of the Small',
     mainExplanation: {
       image:
-        'The wind drives across heaven: The image of the taming power of the small. Thus the superior man Refines the outward aspect of his nature.',
-      text: 'The Taming Power of the Small has success. Dense clouds, no rain from our western region.',
+        'The wind drives across heaven: The image of the taming power of the small. Thus the superior man refines the outward aspect of his nature.',
+      text: 'The taming power of the small has success. Dense clouds, no rain from our western region.',
     },
     lineExplanations: [
       'Return to the way. How could there be blame in this? Good fortune.',
       'He allows himself to be drawn into returning. Good fortune.',
       'The spokes burst out of the wagon wheels. Man and wife roll their eyes.',
       'If you are sincere, blood vanishes, and fear gives way. No blame.',
-      'If you are sincere and walk in the middle, And report with a seal to the prince, Good fortune.',
-      'The rain comes, there is rest. This is due to the lasting effect of character. Perseverance brings the woman into danger. The moon is nearly full. If the superior man persists, Misfortune comes.',
+      'If you are sincere and walk in the middle, and report with a seal to the prince, good fortune.',
+      'The rain comes, there is rest. This is due to the lasting effect of character. Perseverance brings the woman into danger. The moon is nearly full. If the superior man persists, misfortune comes.',
     ],
   },
   10: {
@@ -174,7 +174,7 @@ const hexagrams = {
     },
     lineExplanations: [
       'Simple conduct. Progress without blame.',
-      'Treading a smooth, level course. The perseverance of a dark man Brings good fortune.',
+      'Treading a smooth, level course. The perseverance of a dark man brings good fortune.',
       'A one-eyed man is able to see, A lame man is able to tread. He treads on the tail of the tiger. The tiger bites the man. Misfortune. Thus a warrior acts on behalf of his great prince.',
       'He treads on the tail of the tiger. Caution and circumspection Lead ultimately to good fortune.',
       'Resolute conduct. Perseverance with awareness of danger.',
@@ -190,10 +190,10 @@ const hexagrams = {
     },
     lineExplanations: [
       'When ribbon grass is pulled up, the sod comes with it. Each according to his kind. Undertakings bring good fortune.',
-      "Bearing with the uncultured in gentleness, Fording the river with resolution, Not neglecting what is distant, Not regarding one's companions: Thus one may manage to walk in the middle.",
-      'No plain not followed by a slope. No going not followed by a return. He who remains persevering in danger Is without blame. Do not complain about this truth; Enjoy the good fortune you still possess.',
-      'He flutters down, not boasting of his wealth, Together with his neighbor, Guileless and sincere.',
-      'The sovereign I Gives his daughter in marriage. This brings blessing And supreme good fortune.',
+      "Bearing with the uncultured in gentleness, fording the river with resolution, not neglecting what is distant, not regarding one's companions: Thus one may manage to walk in the middle.",
+      'No plain not followed by a slope. No going not followed by a return. He who remains persevering in danger Is without blame. Do not complain about this truth; enjoy the good fortune you still possess.',
+      'He flutters down, not boasting of his wealth, together with his neighbor, guileless and sincere.',
+      'The sovereign I gives his daughter in marriage. This brings blessing and supreme good fortune.',
       'The wall falls back into the moat. Use no army now. Make your commands known within your own town. Perseverance brings humiliation.',
     ],
   },
@@ -223,9 +223,9 @@ const hexagrams = {
     lineExplanations: [
       'Fellowship with men at the gate. No blame.',
       'Fellowship with men in the clan. Humiliation.',
-      'He hides weapons in the thicket; He climbs the high hill in front of it. For three years he does not rise up.',
+      'He hides weapons in the thicket; he climbs the high hill in front of it. For three years he does not rise up.',
       'He climbs up on his wall; he cannot attack. Good fortune.',
-      'Men bound in fellowship first weep and lament, But afterward they laugh. After great struggles they succeed in meeting.',
+      'Men bound in fellowship first weep and lament, but afterward they laugh. After great struggles they succeed in meeting.',
       'Fellowship with men in the meadow. No remorse.',
     ],
   },
@@ -233,11 +233,11 @@ const hexagrams = {
     name: '大有 (Dà Yǒu) - Possession in Great Measure',
     mainExplanation: {
       image:
-        'Fire in heaven above: The image of possession in great measure. Thus the superior man curbs evil and furthers good, And thereby obeys the benevolent will of heaven.',
-      text: 'Possession in Great Measure. Supreme success.',
+        'Fire in heaven above: The image of possession in great measure. Thus the superior man curbs evil and furthers good, and thereby obeys the benevolent will of heaven.',
+      text: 'Possession in great measure. Supreme success.',
     },
     lineExplanations: [
-      'No relationship with what is harmful; There is no blame in this. If one remains conscious of difficulty, One remains without blame.',
+      'No relationship with what is harmful; there is no blame in this. If one remains conscious of difficulty, one remains without blame.',
       'A big wagon for loading. One may undertake something. No blame.',
       'A prince offers it to the Son of Heaven. A petty man cannot do this.',
       'He makes a difference between himself and his neighbor. No blame.',
@@ -249,13 +249,13 @@ const hexagrams = {
     name: '謙 (Qiān) - Modesty',
     mainExplanation: {
       image:
-        'Within the earth, a mountain: The image of modesty. Thus the superior man reduces that which is too much, And augments that which is too little. He weighs things and makes them equal.',
+        'Within the earth, a mountain: The image of modesty. Thus the superior man reduces that which is too much, and augments that which is too little. He weighs things and makes them equal.',
       text: 'Modesty creates success. The superior man carries things through.',
     },
     lineExplanations: [
       'Modesty that comes to expression. Perseverance brings good fortune.',
       'Modesty that comes to expression. Perseverance brings good fortune.',
-      'A superior man of modesty and merit Carries things to conclusion. Good fortune.',
+      'A superior man of modesty and merit carries things to conclusion. Good fortune.',
       'Nothing that would not further modesty In movement.',
       "No boasting of wealth before one's neighbor. It is favorable to attack with force. Nothing that would not further.",
       "Modesty that comes to expression. It is favorable to set armies marching To chastise one's own city and one's country.",
@@ -265,11 +265,11 @@ const hexagrams = {
     name: '豫 (Yù) - Enthusiasm',
     mainExplanation: {
       image:
-        'Thunder comes resounding out of the earth: The image of enthusiasm. Thus the ancient kings made music In order to honor merit, and offered it With splendor to the Supreme Deity, Inviting their ancestors to be present.',
+        'Thunder comes resounding out of the earth: The image of enthusiasm. Thus the ancient kings made music In order to honor merit, and offered it With splendor to the Supreme Deity, inviting their ancestors to be present.',
       text: 'Enthusiasm. It furthers one to install helpers And to set armies marching.',
     },
     lineExplanations: [
-      'Enthusiasm that expresses itself Brings misfortune.',
+      'Enthusiasm that expresses itself brings misfortune.',
       'Firm as a rock. Not a whole day. Perseverance brings good fortune.',
       'Enthusiasm that looks upward creates remorse. Hesitation brings remorse.',
       'The source of enthusiasm. He achieves great things. Doubt not. You gather friends around you As a hair clasp gathers the hair.',
@@ -298,7 +298,7 @@ const hexagrams = {
     mainExplanation: {
       image:
         'The wind blows low on the mountain: The image of decay. Thus the superior man stirs up the people And strengthens their spirit.',
-      text: 'Work on What Has Been Spoiled Has supreme success. It furthers one to cross the great water. Before the starting point, three days. After the starting point, three days.',
+      text: 'Work on what has been spoiled Has supreme success. It furthers one to cross the great water. Before the starting point, three days. After the starting point, three days.',
     },
     lineExplanations: [
       'Setting right what has been spoiled by the father. If there is a son, No blame rests upon the departed father. Danger. In the end, good fortune.',
@@ -306,7 +306,7 @@ const hexagrams = {
       'Setting right what has been spoiled by the father. There will be little remorse. No great blame.',
       'Tolerating what has been spoiled by the father. In continuing one sees humiliation.',
       'Setting right what has been spoiled by the father. One meets with praise.',
-      'He does not serve kings and princes, Sets himself higher goals.',
+      'He does not serve kings and princes; sets himself higher goals.',
     ],
   },
   19: {
@@ -314,7 +314,7 @@ const hexagrams = {
     mainExplanation: {
       image:
         'The earth above the lake: The image of approach. Thus the superior man is inexhaustible In his will to teach, And without limits In his tolerance and protection of the people.',
-      text: 'Approach has supreme success. Perseverance furthers. When the eighth month comes, There will be misfortune.',
+      text: 'Approach has supreme success. Perseverance furthers. When the eighth month comes, there will be misfortune.',
     },
     lineExplanations: [
       'Joint approach. Perseverance brings good fortune.',
@@ -329,13 +329,13 @@ const hexagrams = {
     name: '觀 (Guān) - Contemplation (View)',
     mainExplanation: {
       image:
-        'The wind blows over the earth: The image of contemplation. Thus the kings of old visited the regions of the world, Contemplated the people, And gave them instruction.',
+        'The wind blows over the earth: The image of contemplation. Thus the kings of old visited the regions of the world, contemplated the people, and gave them instruction.',
       text: 'Contemplation. The ablution has been made, But not yet the offering. Full of trust they look up to him.',
     },
     lineExplanations: [
       'Boy-like contemplation. For an inferior man, no blame. For a superior man, humiliation.',
       'Contemplation through the crack of the door. Furthering for the perseverance of a woman.',
-      'Contemplation of my life Decides the choice Between advance and retreat.',
+      'Contemplation of my life decides the choice between advance and retreat.',
       'Contemplation of the light of the kingdom. It furthers one to exert influence as the guest of a king.',
       'Contemplation of my life. The superior man is without blame.',
       'Contemplation of his life. The superior man is without blame.',
@@ -351,8 +351,8 @@ const hexagrams = {
     lineExplanations: [
       'His feet are fastened in the stocks, So that his toes disappear. No blame.',
       'Bites through tender meat, So that his nose disappears. No blame.',
-      'Bites on old dried meat And strikes on something poisonous. Slight humiliation. No blame.',
-      'Bites on dried gristly meat. Receives metal arrows. It furthers one to be mindful of difficulties And to be persevering. Good fortune.',
+      'Bites on old dried meat and strikes on something poisonous. Slight humiliation. No blame.',
+      'Bites on dried gristly meat. Receives metal arrows. It furthers one to be mindful of difficulties and to be persevering. Good fortune.',
       'Bites on dried lean meat. Receives yellow gold. Perseveringly aware of danger. No blame.',
       'His neck is fastened in the wooden cangue, So that his ears disappear. Misfortune.',
     ],
@@ -393,7 +393,7 @@ const hexagrams = {
     name: '復 (Fù) - Return (The Turning Point)',
     mainExplanation: {
       image:
-        'Thunder within the earth: The image of the turning point. Thus the kings of antiquity closed the passes At the time of solstice. Merchants and strangers did not go about, And the ruler Did not travel through the provinces.',
+        'Thunder within the earth: The image of the turning point. Thus the kings of antiquity closed the passes At the time of solstice. Merchants and strangers did not go about, and the ruler did not travel through the provinces.',
       text: 'Return. Success. Going out and coming in without error. Friends come without blame. To and fro goes the way. On the seventh day comes return. It furthers one to have somewhere to go.',
     },
     lineExplanations: [
@@ -402,21 +402,21 @@ const hexagrams = {
       'Repeated return. Danger. No blame.',
       'Walking in the midst of others, One returns alone.',
       'Noblehearted return. No remorse.',
-      'Missing the return. Misfortune. Misfortune from within and without. If armies are set marching in this way, One will in the end suffer a great defeat, Disastrous for the ruler of the country. For ten years It will not be possible to attack again.',
+      'Missing the return. Misfortune. Misfortune from within and without. If armies are set marching in this way, one will in the end suffer a great defeat, disastrous for the ruler of the country. For ten years It will not be possible to attack again.',
     ],
   },
   25: {
     name: '無妄 (Wú Wàng) - Innocence (The Unexpected)',
     mainExplanation: {
       image:
-        'Under heaven thunder rolls: All things attain the natural state of innocence. Thus the kings of old, Rich in virtue, and in harmony with the time, Fostered and nourished all beings.',
-      text: 'Innocence. Supreme success. Perseverance furthers. If someone is not as he should be, He has misfortune, And it does not further him To undertake anything.',
+        'Under heaven thunder rolls: All things attain the natural state of innocence. Thus the kings of old, rich in virtue, and in harmony with the time, fostered and nourished all beings.',
+      text: 'Innocence. Supreme success. Perseverance furthers. If someone is not as he should be, he has misfortune, and it does not further him To undertake anything.',
     },
     lineExplanations: [
       'Innocent behavior brings good fortune.',
-      'If one does not count on the harvest while plowing, Nor on the use of the ground while clearing it, It furthers one to undertake something.',
-      "Undeserved misfortune. The cow that was tethered by someone Is the wanderer's gain, the citizen's loss.",
-      'He who can be persevering Remains without blame.',
+      'If one does not count on the harvest while plowing, nor on the use of the ground while clearing it, It furthers one to undertake something.',
+      "Undeserved misfortune. The cow that was tethered by someone ss the wanderer's gain, the citizen's loss.",
+      'He who can be persevering remains without blame.',
       'Use no medicine in an illness Incurred through no fault of your own. It will pass of itself.',
       'Innocent action brings misfortune. Nothing furthers.',
     ],
@@ -425,13 +425,13 @@ const hexagrams = {
     name: '大畜 (Dà Xù) - The Taming Power of the Great',
     mainExplanation: {
       image:
-        'Heaven within the mountain: The image of the taming power of the great. Thus the superior man acquaints himself with many sayings of antiquity And many deeds of the past, In order to strengthen his character thereby.',
+        'Heaven within the mountain: The image of the taming power of the great. Thus the superior man acquaints himself with many sayings of antiquity and many deeds of the past, in order to strengthen his character thereby.',
       text: 'The Taming Power of the Great. Perseverance furthers. Not eating at home brings good fortune. It furthers one to cross the great water.',
     },
     lineExplanations: [
       'Danger is at hand. It furthers one to desist.',
       'The axletrees are taken from the wagon.',
-      'A good horse that follows others. Awareness of danger, With perseverance, furthers. Practice chariot driving and armed defense daily. It furthers one to have somewhere to go.',
+      'A good horse that follows others. Awareness of danger, with perseverance, furthers. Practice chariot driving and armed defense daily. It furthers one to have somewhere to go.',
       'The headboard of a young bull. Great good fortune.',
       'The tusk of a gelded boar. Good fortune.',
       'One attains the way of heaven. Success.',
@@ -441,12 +441,12 @@ const hexagrams = {
     name: '頤 (Yí) - The Corners of the Mouth (Providing Nourishment)',
     mainExplanation: {
       image:
-        'At the foot of the mountain, thunder: The image of providing nourishment. Thus the superior man is careful of his words And temperate in eating and drinking.',
-      text: 'The Corners of the Mouth. Perseverance brings good fortune. Pay heed to the providing of nourishment And to what a man seeks To fill his own mouth with.',
+        'At the foot of the mountain, thunder: The image of providing nourishment. Thus the superior man is careful of his words and temperate in eating and drinking.',
+      text: 'The Corners of the Mouth. Perseverance brings good fortune. Pay heed to the providing of nourishment and to what a man seeks To fill his own mouth with.',
     },
     lineExplanations: [
-      'You let your magic tortoise go, And look at me with the corners of your mouth drooping. Misfortune.',
-      'Turning to the summit for provision of nourishment, Deviates from the way. To continue brings misfortune.',
+      'You let your magic tortoise go, and look at me with the corners of your mouth drooping. Misfortune.',
+      'Turning to the summit for provision of nourishment, deviates from the way. To continue brings misfortune.',
       'Turning away from nourishment. Perseverance brings misfortune. Do not act thus for ten years. Nothing serves to further.',
       'Turning to the summit For provision of nourishment Brings good fortune. Spying about with sharp eyes Like a tiger with insatiable craving. No blame.',
       'Turning away from the path. To remain persevering brings good fortune. One should not cross the great water.',
@@ -457,7 +457,7 @@ const hexagrams = {
     name: '大過 (Dà Guò) - Preponderance of the Great',
     mainExplanation: {
       image:
-        'The lake rises above the trees: The image of preponderance of the great. Thus the superior man, when he stands alone, Is unconcerned, And if he has to renounce the world, He is undaunted.',
+        'The lake rises above the trees: The image of preponderance of the great. Thus the superior man, when he stands alone, Is unconcerned, and if he has to renounce the world, he is undaunted.',
       text: 'Preponderance of the Great. The ridgepole sags to the breaking point. It furthers one to have somewhere to go. Success.',
     },
     lineExplanations: [
@@ -479,26 +479,26 @@ const hexagrams = {
     lineExplanations: [
       'Repetition of the Abysmal. In the abyss one falls into a pit. Misfortune.',
       'The abyss is dangerous. One should strive to attain small things only.',
-      'Forward and backward, abyss on abyss. In danger like this, pause at first and wait, Otherwise you will fall into a pit in the abyss. Do not act in this way.',
+      'Forward and backward, abyss on abyss. In danger like this, pause at first and wait, otherwise you will fall into a pit in the abyss. Do not act in this way.',
       'A jug of wine, a bowl of rice with it; Earthen vessels Simply handed in through the window. There is certainly no blame in this.',
-      'The abyss is not filled to overflowing, It is filled only to the rim. No blame.',
-      'Bound with cords and ropes, Shut in between thorn-hedged prison walls: For three years one does not find the way. Misfortune.',
+      'The abyss is not filled to overflowing, it is filled only to the rim. No blame.',
+      'Bound with cords and ropes, shut in between thorn-hedged prison walls: For three years one does not find the way. Misfortune.',
     ],
   },
   30: {
     name: '離 (Lí) - The Clinging, Fire',
     mainExplanation: {
       image:
-        'That which is bright rises twice: The image of fire. Thus the great man, by perpetuating this brightness, Illumines the four quarters of the world.',
+        'That which is bright rises twice: The image of fire. Thus the great man, by perpetuating this brightness, illumines the four quarters of the world.',
       text: 'The Clinging. Perseverance furthers. It brings success. Care of the cow brings good fortune.',
     },
     lineExplanations: [
       'The footprints run crisscross. If one is seriously intent, no blame.',
       'Yellow light. Supreme good fortune.',
-      'In the light of the setting sun, Men either beat the pot and sing Or loudly bewail the approach of old age. Misfortune.',
+      'In the light of the setting sun, men either beat the pot and sing or loudly bewail the approach of old age. Misfortune.',
       'Its coming is sudden; It flames up, dies down, is thrown away.',
       'Tears in floods, sighing and lamentation. Good fortune.',
-      'The king uses him to march forth and chastise. Then it is best to kill the leaders And take captive the followers. No blame.',
+      'The king uses him to march forth and chastise. Then it is best to kill the leaders and take captive the followers. No blame.',
     ],
   },
   31: {
@@ -512,7 +512,7 @@ const hexagrams = {
       'The influence shows itself in the big toe.',
       'The influence shows itself in the calves of the legs. Misfortune. Tarrying brings good fortune.',
       'The influence shows itself in the thighs. Holds to that which follows it. To continue is humiliating.',
-      'Perseverance brings good fortune. Remorse disappears. If a man is agitated in mind, And his thoughts go hither and thither, Only those friends On whom he fixes his conscious thoughts Will follow.',
+      'Perseverance brings good fortune. Remorse disappears. If a man is agitated in mind, and his thoughts go hither and thither, only those friends On whom he fixes his conscious thoughts Will follow.',
       'The influence shows itself in the back of the neck. No remorse.',
       'The influence shows itself in the jaws, cheeks, and tongue.',
     ],
@@ -544,7 +544,7 @@ const hexagrams = {
       'At the tail in retreat. This is dangerous. One must not wish to undertake anything.',
       'He holds him fast with yellow oxhide. No one can tear him loose.',
       'A halted retreat Is nerve-wracking and dangerous. To retain people as men- and maidservants Brings good fortune.',
-      'Voluntary retreat brings good fortune to the superior man And downfall to the inferior man.',
+      'Voluntary retreat brings good fortune to the superior man and downfall to the inferior man.',
       'Friendly retreat. Perseverance brings good fortune.',
       'Cheerful retreat. Everything serves to further.',
     ],
@@ -569,7 +569,7 @@ const hexagrams = {
     name: '晉 (Jìn) - Progress',
     mainExplanation: {
       image:
-        'The sun rises over the earth: The image of progress. Thus the superior man himself Brightens his bright virtue.',
+        'The sun rises over the earth: The image of progress. Thus the superior man himself brightens his bright virtue.',
       text: 'Progress. The powerful prince Is honored with horses in large numbers. In a single day he is granted audience three times.',
     },
     lineExplanations: [
@@ -589,12 +589,12 @@ const hexagrams = {
       text: 'Darkening of the Light. In adversity It furthers one to be persevering.',
     },
     lineExplanations: [
-      'Darkening of the light during flight. He lowers his wings. The superior man does not eat for three days On his wanderings. But he has somewhere to go. The host has occasion to gossip about him.',
+      'Darkening of the light during flight. He lowers his wings. The superior man does not eat for three days on his wanderings. But he has somewhere to go. The host has occasion to gossip about him.',
       'Darkening of the light injures him in the left thigh. He gives aid with the strength of a horse. Good fortune.',
       'Darkening of the light during the hunt in the south. Their great leader is captured. One must not expect perseverance too soon.',
-      'He penetrates the left side of the belly. One gets at the very heart of the darkening of the light And leaves gate and courtyard.',
+      'He penetrates the left side of the belly. One gets at the very heart of the darkening of the light and leaves gate and courtyard.',
       'Darkening of the light as with Prince Chi. Perseverance furthers.',
-      'Not light but darkness. First he climbs up to heaven, Then he plunges into the depths of the earth.',
+      'Not light but darkness. First he climbs up to heaven, then he plunges into the depths of the earth.',
     ],
   },
   37: {
@@ -607,7 +607,7 @@ const hexagrams = {
     lineExplanations: [
       'Firm seclusion within the family. Remorse disappears.',
       'She should not follow her whims. She must attend within to the food. The perseverance of the woman brings good fortune.',
-      'When tempers flare up in the family, Too great severity brings remorse. Good fortune nonetheless. When woman and children are in tears at the outset, In the end, laughter comes.',
+      'When tempers flare up in the family, too great severity brings remorse. Good fortune nonetheless. When woman and children are in tears at the outset, in the end, laughter comes.',
       'She is the treasure of the house. Great good fortune.',
       'As a king he approaches his family. Fear not. Good fortune.',
       'His work commands respect. In the end good fortune comes.',
@@ -621,28 +621,28 @@ const hexagrams = {
       text: 'Opposition. In small matters, good fortune.',
     },
     lineExplanations: [
-      'Remorse disappears. If you lose your horse, do not run after it; It will return of its own accord. When you see evil people, Guard yourself against mistakes.',
+      'Remorse disappears. If you lose your horse, do not run after it; it will return of its own accord. When you see evil people, guard yourself against mistakes.',
       'One meets his lord in a narrow street. No blame.',
-      "One sees the wagon dragged back, The oxen halted, A man's hair and nose cut off. Not a good beginning, but a good end.",
-      'Isolated through opposition, One meets a like-minded man With whom one can associate in good faith. Despite the danger, no blame.',
-      'Remorse disappears. The companion bites his way through the wrappings. If one goes to him, How could it be a mistake?',
-      "Isolated through opposition, One sees one's companion as a pig covered with dirt, As a wagon full of devils. First one draws a bow against him, Then one lays the bow aside. He is not a robber; he will woo at the right time. As one goes, rain falls; then good fortune comes.",
+      "One sees the wagon dragged back, The oxen halted, a man's hair and nose cut off. Not a good beginning, but a good end.",
+      'Isolated through opposition, one meets a like-minded man With whom one can associate in good faith. Despite the danger, no blame.',
+      'Remorse disappears. The companion bites his way through the wrappings. If one goes to him, how could it be a mistake?',
+      "Isolated through opposition, one sees one's companion as a pig covered with dirt, as a wagon full of devils. First one draws a bow against him, then one lays the bow aside. He is not a robber; he will woo at the right time. As one goes, rain falls; then good fortune comes.",
     ],
   },
   39: {
     name: '蹇 (Jiǎn) - Obstruction',
     mainExplanation: {
       image:
-        'Water on the mountain: The image of obstruction. Thus the superior man turns his attention to himself And molds his character.',
+        'Water on the mountain: The image of obstruction. Thus the superior man turns his attention to himself and molds his character.',
       text: 'Obstruction. The southwest furthers. The northeast does not further. It furthers one to see the great man. Perseverance brings good fortune.',
     },
     lineExplanations: [
-      'Going leads to obstructions, Coming meets with praise.',
-      "The king's servant is beset by obstruction upon obstruction, But it is not his own fault.",
-      'Going leads to obstructions, Coming leads to great good fortune.',
-      'Going leads to obstructions, Coming leads to union.',
+      'Going leads to obstructions, coming meets with praise.',
+      "The king's servant is beset by obstruction upon obstruction, but it is not his own fault.",
+      'Going leads to obstructions, coming leads to great good fortune.',
+      'Going leads to obstructions, coming leads to union.',
       'Difficulties in blessing. A little perseverance brings good fortune. Great perseverance brings misfortune.',
-      'Going leads to obstructions, Coming leads to great good fortune. It furthers one to see the great man.',
+      'Going leads to obstructions, coming leads to great good fortune. It furthers one to see the great man.',
     ],
   },
   40: {
@@ -650,14 +650,14 @@ const hexagrams = {
     mainExplanation: {
       image:
         'Thunder and rain set in: The image of deliverance. Thus the superior man pardons mistakes And forgives misdeeds.',
-      text: 'Deliverance. The southwest furthers. If there is no longer anything where one has to go, Return brings good fortune. If there is still something where one has to go, Hastening brings good fortune.',
+      text: 'Deliverance. The southwest furthers. If there is no longer anything where one has to go, return brings good fortune. If there is still something where one has to go, hastening brings good fortune.',
     },
     lineExplanations: [
       'Without blame.',
-      'One kills three foxes in the field And receives a yellow arrow. Perseverance brings good fortune.',
-      'If a man carries a burden on his back And nonetheless rides in a carriage, He thereby encourages robbers to draw near. Perseverance leads to humiliation.',
-      'Deliver yourself from your great toe. Then the companion comes, And him you can trust.',
-      'If only the superior man can deliver himself, It brings good fortune. Thus he proves to inferior men that he is in earnest.',
+      'One kills three foxes in the field and receives a yellow arrow. Perseverance brings good fortune.',
+      'If a man carries a burden on his back and nonetheless rides in a carriage, he thereby encourages robbers to draw near. Perseverance leads to humiliation.',
+      'Deliver yourself from your great toe. Then the companion comes, and him you can trust.',
+      'If only the superior man can deliver himself, it brings good fortune. Thus he proves to inferior men that he is in earnest.',
       'The prince shoots at a hawk on a high wall. He kills it. Everything serves to further.',
     ],
   },
@@ -665,30 +665,30 @@ const hexagrams = {
     name: '損 (Sǔn) - Decrease',
     mainExplanation: {
       image:
-        'At the foot of the mountain, the lake: The image of decrease. Thus the superior man controls his anger And restrains his instincts.',
-      text: 'Decrease combined with sincerity Brings about supreme good fortune Without blame. One may be persevering in this. It furthers one to undertake something. How is this to be carried out? One may use two small bowls for the sacrifice.',
+        'At the foot of the mountain, the lake: The image of decrease. Thus the superior man controls his anger and restrains his instincts.',
+      text: 'Decrease combined with sincerity brings about supreme good fortune Without blame. One may be persevering in this. It furthers one to undertake something. How is this to be carried out? One may use two small bowls for the sacrifice.',
     },
     lineExplanations: [
       "Going quickly when one's tasks are finished Is without blame. But one must reflect on how much one may decrease others.",
-      'Perseverance furthers. To undertake something brings misfortune. Without decreasing oneself, One is able to bring increase to others.',
-      'When three people journey together, Their number decreases by one. When one man journeys alone, He finds a companion.',
-      'If a man decreases his faults, It makes the other hasten to come and rejoice. No blame.',
+      'Perseverance furthers. To undertake something brings misfortune. Without decreasing oneself, one is able to bring increase to others.',
+      'When three people journey together, their number decreases by one. When one man journeys alone, he finds a companion.',
+      'If a man decreases his faults, it makes the other hasten to come and rejoice. No blame.',
       'Someone does indeed increase him. Ten pairs of tortoises cannot oppose it. Supreme good fortune.',
-      'If one is increased without depriving others, There is no blame. Perseverance brings good fortune. It furthers one to undertake something. One obtains servants But no longer has a separate home.',
+      'If one is increased without depriving others, there is no blame. Perseverance brings good fortune. It furthers one to undertake something. One obtains servants but no longer has a separate home.',
     ],
   },
   42: {
     name: '益 (Yì) - Increase',
     mainExplanation: {
       image:
-        'Wind and thunder: The image of increase. Thus the superior man: If he sees good, he imitates it; If he has faults, he rids himself of them.',
-      text: 'Increase. It furthers one To undertake something. It furthers one to cross the great water.',
+        'Wind and thunder: The image of increase. Thus the superior man: if he sees good, he imitates it; if he has faults, he rids himself of them.',
+      text: 'Increase. It furthers one to undertake something. It furthers one to cross the great water.',
     },
     lineExplanations: [
       'It furthers one to accomplish great deeds. Supreme good fortune. No blame.',
-      'Someone does indeed increase him; Ten pairs of tortoises cannot oppose it. Constant perseverance brings good fortune. The king presents him before God. Good fortune.',
-      'One is enriched through unfortunate events. No blame if you are sincere And walk in the middle, And report with a seal to the prince.',
-      'If you walk in the middle And report with a seal to the prince, He will follow. It furthers one to be used In the removal of the capital.',
+      'Someone does indeed increase him; ten pairs of tortoises cannot oppose it. Constant perseverance brings good fortune. The king presents him before God. Good fortune.',
+      'One is enriched through unfortunate events. No blame if you are sincere and walk in the middle, and report with a seal to the prince.',
+      'If you walk in the middle and report with a seal to the prince, he will follow. It furthers one to be used in the removal of the capital.',
       'If in truth you have a kind heart, ask not. Supreme good fortune. Truly, kindness will be recognized as your virtue.',
       'He brings increase to no one. Indeed, someone even strikes him. He does not keep his heart constantly steady. Misfortune.',
     ],
@@ -697,15 +697,15 @@ const hexagrams = {
     name: '夬 (Guài) - Breakthrough (Resoluteness)',
     mainExplanation: {
       image:
-        'The lake has risen up to heaven: The image of breakthrough. Thus the superior man Dispenses riches downward And refrains from resting on his virtue.',
-      text: "Breakthrough. One must resolutely make the matter known At the court of the king. It must be announced truthfully. Danger. It is necessary to notify one's own city. It does not further to resort to arms. It furthers one to undertake something.",
+        'The lake has risen up to heaven: The image of breakthrough. Thus the superior man Dispenses riches downward and refrains from resting on his virtue.',
+      text: "Breakthrough. One must resolutely make the matter known at the court of the king. It must be announced truthfully. Danger. It is necessary to notify one's own city. It does not further to resort to arms. It furthers one to undertake something.",
     },
     lineExplanations: [
-      'Mighty in the forward-striding toes. When one goes and is not equal to the task, One makes a mistake.',
+      'Mighty in the forward-striding toes. When one goes and is not equal to the task, one makes a mistake.',
       'A cry of alarm. Arms at evening and at night. Fear nothing.',
-      'To be powerful in the cheekbones Brings misfortune. The superior man is firmly resolved. He walks alone and is caught in the rain. He is bespattered, And people murmur against him. No blame.',
-      'There is no skin on his thighs, And walking comes hard. If a man were to let himself be led like a sheep, Remorse would disappear. But if these words are heard They will not be believed.',
-      'In dealing with weeds, Firm resolution is necessary. Walking in the middle Remains free of blame.',
+      'To be powerful in the cheekbones Brings misfortune. The superior man is firmly resolved. He walks alone and is caught in the rain. He is bespattered, and people murmur against him. No blame.',
+      'There is no skin on his thighs, And walking comes hard. If a man were to let himself be led like a sheep, remorse would disappear. But if these words are heard They will not be believed.',
+      'In dealing with weeds, firm resolution is necessary. Walking in the middle remains free of blame.',
       'No cry. In the end there will be good fortune.',
     ],
   },
@@ -713,13 +713,13 @@ const hexagrams = {
     name: '姤 (Gòu) - Coming to Meet',
     mainExplanation: {
       image:
-        'Under heaven, wind: The image of coming to meet. Thus does the prince act when disseminating his commands And proclaiming them to the four quarters of heaven.',
+        'Under heaven, wind: The image of coming to meet. Thus does the prince act when disseminating his commands and proclaiming them to the four quarters of heaven.',
       text: 'Coming to Meet. The maiden is powerful. One should not marry such a maiden.',
     },
     lineExplanations: [
-      'It must be checked with a brake of bronze. Perseverance brings good fortune. If one lets it take its course, One experiences misfortune.',
+      'It must be checked with a brake of bronze. Perseverance brings good fortune. If one lets it take its course, one experiences misfortune.',
       'There is a fish in the tank. No blame. Does not further guests.',
-      'There is no skin on his thighs, And walking comes hard. If a man were to let himself be led like a sheep, Remorse would disappear. But if these words are heard They will not be believed.',
+      'There is no skin on his thighs, and walking comes hard. If a man were to let himself be led like a sheep, remorse would disappear. But if these words are heard They will not be believed.',
       'No fish in the tank. This leads to misfortune.',
       'A melon covered with willow leaves. Hidden lines. Then it drops down to one from heaven.',
       'He comes to meet with his horns. Humiliation. No blame.',
@@ -733,11 +733,11 @@ const hexagrams = {
       text: 'Gathering Together. Success. The king approaches his temple. It furthers one to see the great man. This brings success. Perseverance furthers. To bring great offerings creates good fortune. It furthers one to undertake something.',
     },
     lineExplanations: [
-      'If you are sincere, but not to the end, There will sometimes be confusion, sometimes gathering together. If you call out, Then after one grasp of the hand you can laugh again. Regret not. Going is without blame.',
+      'If you are sincere, but not to the end, There will sometimes be confusion, sometimes gathering together. If you call out, then after one grasp of the hand you can laugh again. Regret not. Going is without blame.',
       'Letting oneself be drawn Brings good fortune and remains blameless. If one is sincere, It furthers one to bring even a small offering.',
       'Gathering together amid sighs. Nothing that would further. Going is without blame. Slight humiliation.',
       'Great good fortune. No blame.',
-      'If in gathering together one has position, This brings no blame. If there are some who are not yet sincerely in the work, Sublime and enduring perseverance is needed. Then remorse disappears.',
+      'If in gathering together one has position, this brings no blame. If there are some who are not yet sincerely in the work, sublime and enduring perseverance is needed. Then remorse disappears.',
       'Lamenting and sighing, floods of tears. No blame.',
     ],
   },
@@ -746,10 +746,10 @@ const hexagrams = {
     mainExplanation: {
       image:
         'Within the earth, wood grows: The image of pushing upward. Thus the superior man of devoted character Heaps up small things In order to achieve something high and great.',
-      text: 'Pushing Upward has supreme success. One must see the great man. Fear not. Departure toward the south Brings good fortune.',
+      text: 'Pushing Upward has supreme success. One must see the great man. Fear not. Departure toward the south brings good fortune.',
     },
     lineExplanations: [
-      'Pushing upward that meets with confidence Brings great good fortune.',
+      'Pushing upward that meets with confidence brings great good fortune.',
       'If one is sincere, It furthers one to bring even a small offering. No blame.',
       'One pushes upward into an empty city.',
       'The king offers him Mount Qi. Good fortune. No blame.',
@@ -762,7 +762,7 @@ const hexagrams = {
     mainExplanation: {
       image:
         'There is no water in the lake: The image of exhaustion. Thus the superior man stakes his life On following his will.',
-      text: 'Oppression. Success. Perseverance. The great man brings good fortune. No blame. When one has something to say, It is not believed.',
+      text: 'Oppression. Success. Perseverance. The great man brings good fortune. No blame. When one has something to say, it is not believed.',
     },
     lineExplanations: [
       'One sits oppressed under a bare tree And strays into a gloomy valley. For three years one sees nothing.',
@@ -770,22 +770,22 @@ const hexagrams = {
       'A man permits himself to be oppressed by stone, And leans on thorns and thistles. He enters his house and does not see his wife. Misfortune.',
       'He comes very quietly, oppressed in a golden carriage. Humiliation, but the end is reached.',
       'His nose and feet are cut off. Oppression at the hands of the man with the purple knee bands. Joy comes softly. It furthers one to make offerings and libations.',
-      "He is oppressed by creeping vines. He moves uncertainly and says, 'Movement brings remorse.' If one feels remorse over this and makes a start, Good fortune comes.",
+      "He is oppressed by creeping vines. He moves uncertainly and says, 'Movement brings remorse.' If one feels remorse over this and makes a start, good fortune comes.",
     ],
   },
   48: {
     name: '井 (Jǐng) - The Well',
     mainExplanation: {
       image:
-        'Water over wood: The image of the well. Thus the superior man encourages the people at their work, And exhorts them to help one another.',
-      text: 'The Well. The town may be changed, But the well cannot be changed. It neither decreases nor increases. They come and go and draw from the well. If one gets down almost to the water And the rope does not go all the way, Or the jug breaks, it brings misfortune.',
+        'Water over wood: The image of the well. Thus the superior man encourages the people at their work, and exhorts them to help one another.',
+      text: 'The Well. The town may be changed, but the well cannot be changed. It neither decreases nor increases. They come and go and draw from the well. If one gets down almost to the water and the rope does not go all the way, or the jug breaks, it brings misfortune.',
     },
     lineExplanations: [
       'One does not drink the mud of the well. No animals come to an old well.',
       'At the wellhole one shoots fishes. The jug is broken and leaks.',
-      "The well is cleaned, but no one drinks from it. This is my heart's sorrow, For one might draw from it. If the king were clear-minded, Good fortune might be enjoyed in common.",
+      "The well is cleaned, but no one drinks from it. This is my heart's sorrow, for one might draw from it. If the king were clear-minded, good fortune might be enjoyed in common.",
       'The well is being lined. No blame.',
-      'In the well there is a clear, cold spring From which one can drink.',
+      'In the well there is a clear, cold spring from which one can drink.',
       'One draws from the well Without hindrance. It is dependable. Supreme good fortune.',
     ],
   },
@@ -794,12 +794,12 @@ const hexagrams = {
     mainExplanation: {
       image:
         'Fire in the lake: The image of revolution. Thus the superior man Sets the calendar in order And makes the seasons clear.',
-      text: 'Revolution. On your own day You are believed. Supreme success, Furthering through perseverance. Remorse disappears.',
+      text: 'Revolution. On your own day You are believed. Supreme success, furthering through perseverance. Remorse disappears.',
     },
     lineExplanations: [
       'Wrapped in the hide of a yellow cow.',
       "When one's own day comes, one may create revolution. Starting brings good fortune. No blame.",
-      'Starting brings misfortune. Perseverance brings danger. When talk of revolution has gone the rounds three times, One may commit himself, And men will believe him.',
+      'Starting brings misfortune. Perseverance brings danger. When talk of revolution has gone the rounds three times, one may commit himself, and men will believe him.',
       'Remorse disappears. Men believe him. Changing the form of government brings good fortune.',
       'The great man changes like a tiger. Even before he questions the oracle He is believed.',
       'The superior man changes like a panther. The inferior man molts in the face. Starting brings misfortune. To remain persevering brings good fortune.',
@@ -814,9 +814,9 @@ const hexagrams = {
     },
     lineExplanations: [
       'A cauldron with upturned legs. Furthers removal of stagnating stuff. One takes a concubine for the sake of her son. No blame.',
-      'There is food in the cauldron. My comrades are envious, But they cannot harm me. Good fortune.',
+      'There is food in the cauldron. My comrades are envious, but they cannot harm me. Good fortune.',
       'The handle of the cauldron is altered. One is impeded in his way of life. The fat of the pheasant is not eaten. Once rain falls, remorse is spent. Good fortune comes in the end.',
-      "The legs of the cauldron are broken. The prince's meal is spilled And his person is soiled. Misfortune.",
+      "The legs of the cauldron are broken. The prince's meal is spilled and his person is soiled. Misfortune.",
       'The cauldron has yellow handles, golden carrying rings. Perseverance furthers.',
       'The cauldron has jade rings. Great good fortune. Nothing that would not act to further.',
     ],
@@ -825,24 +825,24 @@ const hexagrams = {
     name: '震 (Zhèn) - The Arousing (Shock, Thunder)',
     mainExplanation: {
       image:
-        'Thunder repeated: The image of shock. Thus in fear and trembling The superior man sets his life in order And examines himself.',
-      text: 'Shock brings success. Shock comes—oh, oh! Laughing words—ha, ha! The shock terrifies for a hundred miles, And he does not let fall the sacrificial spoon and chalice.',
+        'Thunder repeated: The image of shock. Thus in fear and trembling the superior man sets his life in order and examines himself.',
+      text: 'Shock brings success. Shock comes—oh, oh! Laughing words—ha, ha! The shock terrifies for a hundred miles, and he does not let fall the sacrificial spoon and chalice.',
     },
     lineExplanations: [
       'Shock comes—oh, oh! Then follows laughing words—ha, ha! Good fortune.',
-      'Shock comes bringing danger. A hundred thousand times You lose your treasures And must climb the nine hills. Do not go in pursuit of them. After seven days you will get them back.',
-      'Shock comes and makes one distraught. If shock spurs to action One remains free of misfortune.',
+      'Shock comes bringing danger. A hundred thousand times you lose your treasures and must climb the nine hills. Do not go in pursuit of them. After seven days you will get them back.',
+      'Shock comes and makes one distraught. If shock spurs to action one remains free of misfortune.',
       'Shock is mired.',
       'Shock goes hither and thither. Danger. However, nothing at all is lost. Yet there are things to be done.',
-      "Shock brings ruin and terrified gazing around. Going ahead brings misfortune. If it has not yet touched one's own body but has reached one's neighbor first, There is no blame. One's comrades have something to talk about.",
+      "Shock brings ruin and terrified gazing around. Going ahead brings misfortune. If it has not yet touched one's own body but has reached one's neighbor first, there is no blame. One's comrades have something to talk about.",
     ],
   },
   52: {
     name: '艮 (Gèn) - Keeping Still, Mountain',
     mainExplanation: {
       image:
-        'Mountains standing close together: The image of keeping still. Thus the superior man Does not permit his thoughts To go beyond his situation.',
-      text: 'Keeping Still. Keeping his back still So that he no longer feels his body. He goes into his courtyard And does not see his people. No blame.',
+        'Mountains standing close together: The image of keeping still. Thus the superior man does not permit his thoughts to go beyond his situation.',
+      text: 'Keeping Still. Keeping his back still so that he no longer feels his body. He goes into his courtyard and does not see his people. No blame.',
     },
     lineExplanations: [
       'Keeping his toes still. No blame. Continued perseverance furthers.',
@@ -857,7 +857,7 @@ const hexagrams = {
     name: '漸 (Jiàn) - Development (Gradual Progress)',
     mainExplanation: {
       image:
-        'On the mountain, a tree: The image of development. Thus the superior man abides in dignity and virtue, In order to improve the mores.',
+        'On the mountain, a tree: The image of development. Thus the superior man abides in dignity and virtue, in order to improve the mores.',
       text: 'Development. The maiden Is given in marriage. Good fortune. Perseverance furthers.',
     },
     lineExplanations: [
@@ -873,7 +873,7 @@ const hexagrams = {
     name: '歸妹 (Guī Mèi) - The Marrying Maiden',
     mainExplanation: {
       image:
-        'Thunder over the lake: The image of the marrying maiden. Thus the superior man Understands the transitory In the light of the eternity of the end.',
+        'Thunder over the lake: The image of the marrying maiden. Thus the superior man understands the transitory in the light of the eternity of the end.',
       text: 'The Marrying Maiden. Undertakings bring misfortune. Nothing that would further.',
     },
     lineExplanations: [
@@ -881,7 +881,7 @@ const hexagrams = {
       'A one-eyed man who is able to see. The perseverance of a solitary man furthers.',
       'The marrying maiden as a slave. She marries as a concubine.',
       'The marrying maiden draws out the allotted time. A late marriage comes in due course.',
-      'The sovereign I Gave his daughter in marriage. The embroidered garments of the princess Were not as gorgeous As those of the servingmaid. The moon that is nearly full Brings good fortune.',
+      'The sovereign I gave his daughter in marriage. The embroidered garments of the princess Were not as gorgeous As those of the servingmaid. The moon that is nearly full brings good fortune.',
       'The woman holds the basket, but there are no fruits in it. The man stabs the sheep, but no blood flows. Nothing that acts to further.',
     ],
   },
@@ -893,39 +893,39 @@ const hexagrams = {
       text: 'Abundance has success. The king attains abundance. Be not sad. Be like the sun at midday.',
     },
     lineExplanations: [
-      'When a man meets his destined ruler, They can be together ten days, And it is not a mistake. Going meets with recognition.',
-      'The curtain is of such fullness That the polestars can be seen at noon. Through going one meets with mistrust and hate. If one rouses him through truth, Good fortune comes.',
+      'When a man meets his destined ruler, They can be together ten days, and it is not a mistake. Going meets with recognition.',
+      'The curtain is of such fullness That the polestars can be seen at noon. Through going one meets with mistrust and hate. If one rouses him through truth, good fortune comes.',
       'The underbrush is of such abundance That the small stars can be seen at noon. He breaks his right arm. No blame.',
-      'The curtain is of such fullness That the polestars can be seen at noon. He meets his ruler, who is of like kind. Good fortune.',
-      'Lines are coming, Blessing and fame draw near. Good fortune.',
-      'His house is in a state of abundance. He screens off his family. He peers through the gate And no longer perceives anyone. For three years he sees nothing. Misfortune.',
+      'The curtain is of such fullness that the polestars can be seen at noon. He meets his ruler, who is of like kind. Good fortune.',
+      'Lines are coming, blessing and fame draw near. Good fortune.',
+      'His house is in a state of abundance. He screens off his family. He peers through the gate and no longer perceives anyone. For three years he sees nothing. Misfortune.',
     ],
   },
   56: {
     name: '旅 (Lǚ) - The Wanderer',
     mainExplanation: {
       image:
-        'Fire on the mountain: The image of the wanderer. Thus the superior man Is clear-minded and cautious In imposing penalties, And protracts no lawsuits.',
-      text: 'The Wanderer. Success through smallness. Perseverance brings good fortune To the wanderer.',
+        'Fire on the mountain: The image of the wanderer. Thus the superior man Is clear-minded and cautious In imposing penalties, and protracts no lawsuits.',
+      text: 'The Wanderer. Success through smallness. Perseverance brings good fortune to the wanderer.',
     },
     lineExplanations: [
-      'If the wanderer busies himself with trivial things, He draws down misfortune upon himself.',
+      'If the wanderer busies himself with trivial things, he draws down misfortune upon himself.',
       'The wanderer comes to an inn. He has his property with him. He wins the steadfastness of a young servant.',
       "The wanderer's inn burns down. He loses the steadfastness of his young servant. Danger.",
       'The wanderer rests in a shelter. He obtains his property and an ax. My heart is not glad.',
       'He shoots a pheasant. It drops with the first arrow. In the end this brings both praise and office.',
-      "The bird's nest burns up. The wanderer laughs at first, Then must needs lament and weep. Through carelessness he loses his cow. Misfortune.",
+      "The bird's nest burns up. The wanderer laughs at first, then must needs lament and weep. Through carelessness he loses his cow. Misfortune.",
     ],
   },
   57: {
     name: '巽 (Xùn) - The Gentle (The Penetrating, Wind)',
     mainExplanation: {
       image:
-        'Winds following one upon the other: The image of the gently penetrating. Thus the superior man Spreads his commands abroad And carries out his undertakings.',
+        'Winds following one upon the other: The image of the gently penetrating. Thus the superior man spreads his commands abroad and carries out his undertakings.',
       text: 'The Gentle. Success through what is small. It furthers one to have somewhere to go. It furthers one to see the great man.',
     },
     lineExplanations: [
-      'In advancing and in retreating, The perseverance of a warrior furthers.',
+      'In advancing and in retreating, the perseverance of a warrior furthers.',
       'Penetration under the bed. Priests and magicians are used in great number. Good fortune. No blame.',
       'Repeated penetration. Humiliation.',
       'Remorse vanishes. During the hunt Three kinds of game are caught.',
@@ -944,7 +944,7 @@ const hexagrams = {
       'Contented joyousness. Good fortune.',
       'Sincere joyousness. Good fortune. Remorse disappears.',
       'Coming joyousness. Misfortune.',
-      'Joyousness that is weighed is not at peace. After ridding himself of mistakes a man has joy.',
+      'Joyousness that is weighed is not at peace. After ridding himself of mistakes, a man has joy.',
       'Sincerity toward disintegrating influences is dangerous.',
       'Seductive joyousness.',
     ],
@@ -953,7 +953,7 @@ const hexagrams = {
     name: '渙 (Huàn) - Dispersion (Dissolution)',
     mainExplanation: {
       image:
-        'The wind drives over the water: The image of dispersion. Thus the kings of old sacrificed to the Lord And built temples.',
+        'The wind drives over the water: The image of dispersion. Thus the kings of old sacrificed to the Lord and built temples.',
       text: 'Dispersion. Success. The king approaches his temple. It furthers one to cross the great water. Perseverance furthers.',
     },
     lineExplanations: [
@@ -962,20 +962,20 @@ const hexagrams = {
       'He dissolves his self. No remorse.',
       'He dissolves his bond with his group. Supreme good fortune. Dispersion leads in turn to accumulation. This is something that ordinary men do not think of.',
       'His loud cries are as dissolving as sweat. Dissolution. A king abides without blame.',
-      'He dissolves his blood. Departing, keeping at a distance, going out, Is without blame.',
+      'He dissolves his blood. Departing, keeping at a distance, going out is without blame.',
     ],
   },
   60: {
     name: '節 (Jié) - Limitation',
     mainExplanation: {
       image:
-        'Water over lake: The image of limitation. Thus the superior man Creates number and measure, And examines the nature of virtue and correct conduct.',
+        'Water over lake: The image of limitation. Thus the superior man creates number and measure, and examines the nature of virtue and correct conduct.',
       text: 'Limitation. Success. Galling limitation must not be persevered in.',
     },
     lineExplanations: [
-      'Not going out of the door and the courtyard Is without blame.',
-      'Not going out of the gate and the courtyard Brings misfortune.',
-      'He who knows no limitation Will have cause to lament. No blame.',
+      'Not going out of the door and the courtyard is without blame.',
+      'Not going out of the gate and the courtyard brings misfortune.',
+      'He who knows no limitation will have cause to lament. No blame.',
       'Contented limitation. Success.',
       'Sweet limitation brings good fortune. Going brings esteem.',
       'Galling limitation. Perseverance brings misfortune. Remorse disappears.',
@@ -1002,11 +1002,11 @@ const hexagrams = {
     mainExplanation: {
       image:
         'Thunder on the mountain: The image of preponderance of the small. Thus in his conduct the superior man gives preponderance to reverence. In bereavement he gives preponderance to grief. In his expenditures he gives preponderance to thrift.',
-      text: 'Preponderance of the Small. Success. Perseverance furthers. Small things may be done; great things should not be done. The flying bird brings the message: It is not well to strive upward, It is well to remain below. Great good fortune.',
+      text: 'Preponderance of the Small. Success. Perseverance furthers. Small things may be done; great things should not be done. The flying bird brings the message: It is not well to strive upward, it is well to remain below. Great good fortune.',
     },
     lineExplanations: [
       'The bird meets with misfortune through flying.',
-      'She passes by her ancestor And meets her ancestress. He does not reach his prince And meets the official. No blame.',
+      'She passes by her ancestor and meets her ancestress. He does not reach his prince and meets the official. No blame.',
       'If one is not extremely careful, Somebody may come up from behind and strike him. Misfortune.',
       'No blame. He meets him without passing by. Going brings danger. One must be on guard. Do not act. Be constantly persevering.',
       'Dense clouds, no rain from our western territory. The prince shoots and hits him who is in the cave.',
@@ -1017,15 +1017,15 @@ const hexagrams = {
     name: '既濟 (Jì Jì) - After Completion',
     mainExplanation: {
       image:
-        'Water over fire: The image of the condition In after completion. Thus the superior man Takes thought of misfortune And arms himself against it in advance.',
-      text: 'After Completion. Success in small matters. Perseverance furthers. At the beginning good fortune, At the end disorder.',
+        'Water over fire: The image of the condition In after completion. Thus the superior man Takes thought of misfortune and arms himself against it in advance.',
+      text: 'After Completion. Success in small matters. Perseverance furthers. At the beginning good fortune, at the end disorder.',
     },
     lineExplanations: [
       'He breaks his wheels. He gets his tail in the water. No blame.',
       'The woman loses the curtain of her carriage. Do not run after it; On the seventh day you will get it.',
       "The Illustrious Ancestor Disciplines the Devil's Country. After three years he conquers it. Inferior people must not be employed.",
       'The finest clothes turn to rags. Be careful all day long.',
-      'The neighbor in the east who slaughters an ox Does not attain as much real happiness As the neighbor in the west With his simple sacrifice.',
+      'The neighbor in the east who slaughters an ox does not attain as much real happiness As the neighbor in the west with his simple sacrifice.',
       'He gets his head in the water. Danger.',
     ],
   },
@@ -1033,7 +1033,7 @@ const hexagrams = {
     name: '未濟 (Wèi Jì) - Before Completion',
     mainExplanation: {
       image:
-        'Fire over water: The image of the condition before transition. Thus the superior man is careful In the differentiation of things, So that each finds its place.',
+        'Fire over water: The image of the condition before transition. Thus the superior man is careful In the differentiation of things, so that each finds its place.',
       text: 'Before Completion. Success. But if the little fox, after nearly completing the crossing, gets his tail in the water, there is nothing that would further.',
     },
     lineExplanations: [
@@ -1042,7 +1042,7 @@ const hexagrams = {
       'Before completion, attack brings misfortune. It furthers one to cross the great water.',
       "Perseverance brings good fortune. Remorse disappears. Shock, thus to discipline the Devil's Country. For three years, great realms are awarded.",
       'Perseverance brings good fortune. No remorse. The light of the superior man is true. Good fortune.',
-      'There is drinking of wine In genuine confidence. No blame. But if one wets his head, He loses it, in truth.',
+      'There is drinking of wine In genuine confidence. No blame. But if one wets his head, he loses it, in truth.',
     ],
   },
 }

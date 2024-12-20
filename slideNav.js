@@ -1,6 +1,4 @@
 const bar = document.getElementById('three-bar')
-bar.style.fontWeight = '600'
-bar.style.fontSize = 'xx-large'
 bar.style.display = 'none'
 
 const nav = document.getElementById('link-container')

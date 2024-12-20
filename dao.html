@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I Ching</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      #three-bar {
+        height: 20px;
+        width: 20px;
+        font-weight: 600;
+        font-size: xx-large;
+      }
+
+      .about-page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+        gap: 2rem;
+        color: #333;
+      }
+
+      .about-section {
+        max-width: 600px;
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 1.5rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .about-section h1,
+      .about-section h2,
+      .about-section h3,
+      .about-section strong {
+        color: #2a4970;
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+
+      .about-section p {
+        color: #555;
+        line-height: 1.6;
+        font-size: 1rem;
+      }
+
+      .about-section ul {
+        list-style-type: disc;
+        color: #555;
+        padding-left: 20px;
+        text-align: left;
+      }
+
+      .about-section ul li {
+        margin-bottom: 0.5rem;
+      }
+
+      #page-container a {
+        color: #2a4970;
+      }
+
+      /*---frame---*/
+      #divider-top,
+      #divider-bottom {
+        height: 10px;
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+      }
+
+      #top-frame,
+      #bottom-frame {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+      }
+
+      #bottom-frame {
+        transform: translateY(-150px);
+      }
+
+      #dao-decoration {
+        height: 70px;
+        width: 70px;
+        transform: translateY(100px);
+      }
+
+      #frameTopLeft,
+      #frameTopRight,
+      #frameBottomLeft,
+      #frameBottomRight {
+        height: 100px;
+        width: 100px;
+      }
+
+      /*--dao text--*/
+      #dao-title-container {
+        display: flex;
+        flex-direction: column;
+      }
+
+      #dao-title-english {
+        font-weight: 600;
+        font-size: x-large;
+      }
+
+      #output {
+        width: 100%;
+        height: 400px;
+        background: linear-gradient(
+          to bottom,
+          rgb(248, 248, 248),
+          rgba(255, 228, 196, 1)
+        );
+        overflow-y: hidden;
+        overflow-x: hidden;
+        overflow: scroll;
+        padding: 10px;
+        word-break: break-word;
+        white-space: normal;
+        display: block;
+        border-top: 2px solid #ddd;
+        padding-bottom: 1.5rem;
+        margin-bottom: 1.5rem;
+      }
+
+      #output::-webkit-scrollbar {
+        display: none;
+      }
+
+      /*---copyright box---*/
+      @media screen and (max-width: 600px) {
+        #divider-top,
+        #divider-bottom {
+          height: 10px;
+          flex-grow: 0;
+          width: 100%;
+        }
+
+        #dao-title-container {
+          width: 70px;
+          transform: translateY(30px);
+        }
+
+        #dao-title,
+        #dao-title-english {
+          font-weight: 600;
+          font-size: larger;
+        }
+
+        #output {
+          width: 100%;
+          border-radius: 0;
+          padding: 0;
+        }
+
+        #bottom-frame {
+          transform: translateY(-50px);
+        }
+
+        #dao-decoration {
+          height: 50px;
+          width: 50px;
+          transform: translateY(70px);
+        }
+
+        #copyright {
+          width: 250px;
+        }
+
+        #cr-box {
+          width: 70%;
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <div id="three-bar">≡</div>
+        <span id="link-container">
+          <a href="./index.html" class="nav-item">Home</a>
+          <a href="./about.html" class="nav-item">About</a>
+          <a href="./dao.html" class="nav-item">The Dao</a>
+          <a href="./support.html" class="nav-item">Support</a>
+          <a href="./contact.html" class="nav-item">Contact</a>
+          <a href="./privacy.html" class="nav-item">Privacy Policy</a>
+          <a href="./donor.html" class="nav-item">Donor Policy</a>
+        </span>
+      </ul>
+    </nav>
+
+    <div id="page-container">
+      <div class="about-page">
+        <div id="top-frame">
+          <img
+            id="frameTopLeft"
+            src="./img/frameBottomLeft.png"
+            style="transform: scale(1, -1)"
+          />
+          <div id="divider-top">
+            <div id="dao-title-container">
+              <h1 id="dao-title">道德經</h1>
+              <div id="dao-title-english">The Dao</div>
+            </div>
+          </div>
+          <img
+            id="frameTopRight"
+            src="./img/frameBottomLeft.png"
+            style="transform: scale(-1, -1)"
+          />
+        </div>
+        <section class="about-section">
+          <div class="container" id="output">
+            <p id="dao-canvas"></p>
+          </div>
+        </section>
+        <div id="bottom-frame">
+          <img id="frameBottomLeft" src="./img/frameBottomLeft.png" />
+          <div id="divider-bottom">
+            <img id="dao-decoration" src="./img/decoration.png" />
+          </div>
+          <img
+            id="frameBottomRight"
+            src="./img/frameBottomLeft.png"
+            style="transform: scale(-1, 1)"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div id="copyright">
+      <ul id="cr-box">
+        <li style="color: #555">
+          © 2024 I Ching Oracle Project by Lawrence Aubert III. All rights
+          reserved.
+        </li>
+
+        <a
+          href="https://www.flaticon.com/free-icons/border-design"
+          title="border design icons"
+          target="_blank"
+          style="color: #2a4970; text-decoration: none"
+          onmouseover="this.style.textDecoration='underline';"
+          onmouseout="this.style.textDecoration='none';"
+          >Border design icons created by kornkun - Flaticon</a
+        >
+
+        <a
+          href="https://www.flaticon.com/free-icons/decoration"
+          title="decoration icons"
+          target="_blank"
+          style="color: #2a4970; text-decoration: none"
+          onmouseover="this.style.textDecoration='underline';"
+          onmouseout="this.style.textDecoration='none';"
+          >Decoration icons created by kosonicon - Flaticon</a
+        >
+      </ul>
+    </div>
+
+    <script>
+      const daoTitle = document.getElementById('dao-title')
+      const englishTitle = document.getElementById('dao-title-english')
+
+      function alternateColors(elementId) {
+        const text = elementId.innerText
+        elementId.innerHTML = ''
+
+        Array.from(text).forEach((char, index) => {
+          const span = document.createElement('span')
+          span.innerText = char
+          span.style.animation = `colorChange 2s infinite ${
+            index * 0.1
+          }s linear`
+          elementId.appendChild(span)
+        })
+      }
+
+      const style = document.createElement('style')
+      style.innerHTML = `
+    @keyframes colorChange {
+      0% { color: red; }
+      50% { color: blue; }
+      100% { color: red; }
+    }
+  `
+      document.head.appendChild(style)
+      alternateColors(daoTitle)
+      alternateColors(englishTitle)
+    </script>
+    <script src="slideNav.js"></script>
+    <script src="dao.js"></script>
+  </body>
+</html>
