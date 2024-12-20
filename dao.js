@@ -490,7 +490,10 @@ function readDao() {
     if (dao[i]) {
       const daoCanvas = document.getElementById('dao-canvas')
       const chapter = document.createElement('div')
+      chapter.style.fontWeight = '600'
+      chapter.style.color = '#2a4970'
       const chineseVerse = document.createElement('div')
+      chineseVerse.style.color = '#2a4970'
       const englishVerse = document.createElement('div')
       daoCanvas.appendChild(chapter)
       daoCanvas.appendChild(chineseVerse)
