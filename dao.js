@@ -9,7 +9,7 @@ const dao = {
     chinese:
       '天下皆知美之為美，斯惡已。皆知善之為善，斯不善已。故有無相生，難易相成，長短相較，高下相傾，音聲相和，前後相隨。是以聖人處無為之事，行不言之教；萬物作焉而不辭，生而不有。為而不恃，功成而弗居。夫唯弗居，是以不去。',
     english:
-      'When all under heaven know ′beauty′ as ′beauty,′ there is ′ugliness.′ When all know ′virtue′ as ′virtue,′ there is ′vice.′ Therefore, being and non-being give birth to each other. Difficult and easy complete each other. Long and short compare with each other. High and low incline toward each other. Sound and voice harmonize with each other. Front and back follow each other. Thus, the sage acts without effort and teaches without words. All things arise, and he does not reject them. He creates but does not possess. He acts but does not rely on his actions. He accomplishes but does not dwell on the accomplishment. It is only because he does not dwell on it that it never leaves him.',
+      'When all under heaven know ′beauty′ as ′beauty,′ there is ′ugliness.′ When all know ′virtue′ as ′virtue,′ there is ′vice.′ Therefore, ′is′ and ′is not′ give birth to each other. Difficult and easy complete each other. Long and short compare with each other. High and low incline toward each other. Sound and voice harmonize with each other. Front and back follow each other. Thus, the sage acts without effort and teaches without words. All things arise, and he does not reject them. He creates but does not possess. He acts but does not rely on his actions. He accomplishes but does not dwell on the accomplishment. It is only because he does not dwell on it that it never leaves him.',
   },
   3: {
     chinese:
