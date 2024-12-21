@@ -785,13 +785,13 @@ const hexagrams = {
     name: '困 (Kùn) - Oppression (Exhaustion)',
     mainExplanation: {
       image:
-        'There is no water in the lake: The image of exhaustion. Thus the superior man stakes his life On following his will.',
+        'There is no water in the lake: The image of exhaustion. Thus the superior man stakes his life on following his will.',
       text: 'Oppression. Success. Perseverance. The great man brings good fortune. No blame. When one has something to say, it is not believed.',
     },
     lineExplanations: [
-      'One sits oppressed under a bare tree And strays into a gloomy valley. For three years one sees nothing.',
+      'One sits oppressed under a bare tree and strays into a gloomy valley. For three years one sees nothing.',
       'One is oppressed while at meat and drink. The man with the scarlet knee bands is just coming. It furthers one to offer sacrifice. To set forth brings misfortune. No blame.',
-      'A man permits himself to be oppressed by stone, And leans on thorns and thistles. He enters his house and does not see his wife. Misfortune.',
+      'A man permits himself to be oppressed by stone, and leans on thorns and thistles. He enters his house and does not see his wife. Misfortune.',
       'He comes very quietly, oppressed in a golden carriage. Humiliation, but the end is reached.',
       'His nose and feet are cut off. Oppression at the hands of the man with the purple knee bands. Joy comes softly. It furthers one to make offerings and libations.',
       "He is oppressed by creeping vines. He moves uncertainly and says, 'Movement brings remorse.' If one feels remorse over this and makes a start, good fortune comes.",
