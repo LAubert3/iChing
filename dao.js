@@ -3,7 +3,7 @@ const dao = {
     chinese:
       '道可道，非常道。名可名，非常名。無名天地之始；有名萬物之母。故常無欲，以觀其妙；常有欲，以觀其徼。此兩者，同出而異名，同謂之玄。玄之又玄，衆妙之門。',
     english:
-      'The Way (Dào) that can be spoken is not the eternal Way; the name that can be named is not the eternal name. The nameless is the origin of Heaven and Earth; the named is the mother of all things. Therefore, always desireless, you can see the mystery; always desiring, you can see the manifestations. These two emerge together but differ in name; their unity is called the profound. The profound and the profound— the gateway to all wonders.',
+      'The Way (Dào) that can be shown is not the eternal Way; the name that can be named is not the eternal name. The nameless is the origin of Heaven and Earth; the named is the mother of all things. Therefore, always desireless, you can see the mystery; always desiring, you can see the manifestations. These two emerge together but differ in name; their unity is called the profound. The profound and the profound— the gateway to all wonders.',
   },
   2: {
     chinese:
