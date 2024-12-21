@@ -19,6 +19,30 @@ const loadIcon = document.getElementById('rollCage')
 loadIcon.style.display = 'none'
 const auto = document.getElementById('autoBtn')
 const cast = document.getElementById('cast')
+const centerText = document.getElementById('center-text')
+
+function alternateColors(elementId) {
+  const text = elementId.innerText
+  elementId.innerHTML = ''
+
+  Array.from(text).forEach((char, index) => {
+    const span = document.createElement('span')
+    span.innerText = char
+    span.style.animation = `colorChange 2s infinite ${index * 0.1}s linear`
+    elementId.appendChild(span)
+  })
+}
+
+const style = document.createElement('style')
+style.innerHTML = `
+@keyframes colorChange {
+0% { color: red; }
+50% { color: blue; }
+100% { color: red; }
+}
+`
+document.head.appendChild(style)
+alternateColors(centerText)
 
 const hexagrams = {
   1: {
@@ -1202,6 +1226,7 @@ auto.addEventListener('click', async function () {
   //autoCover.style.backgroundColor = 'bisque'
   autoCover.style.background = 'none'
   autoCover.textContent = 'Tossing...'
+  centerText.style.visibility = 'hidden'
 
   async function generateNumber() {
     const inputValue = input.value
@@ -1536,6 +1561,7 @@ enter.addEventListener('mouseout', function () {
 
 enter.addEventListener('click', function () {
   coinCast()
+  centerText.style.visibility = 'hidden'
 })
 
 //clear
@@ -1577,6 +1603,7 @@ clear.addEventListener('click', function () {
   clearHex(four)
   clearHex(five)
   clearHex(six)
+  centerText.style.visibility = 'visible'
 })
 
 //info icon
