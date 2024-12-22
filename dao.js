@@ -15,7 +15,7 @@ const dao = {
     chinese:
       '不尚賢，使民不爭；不貴難得之貨，使民不為盜；不見可欲，使心不亂。是以聖人之治，虛其心，實其腹，弱其志，強其骨。常使民無知無欲。使夫知者不敢為也。為無為，則無不治。',
     english:
-      'Do not exalt the worthy, so the people will not compete. Do not value rare treasures, so the people will not steal. Do not display what is desirable, so the hearts of the people will not be disturbed. Therefore, the sage governs by emptying their hearts, filling their bellies, weakening their desires, and strengthening their bones. He always ensures the people are without knowledge and without lust, and that those with knowledge do not dare to act. Act through non-action (wú wéi), And nothing will remain ungoverned.',
+      'Do not exalt the worthy, so the people will not compete. Do not value rare treasures, so the people will not steal. Do not display what is desirable, so the hearts of the people will not be disturbed. Therefore, the sage governs by emptying their hearts, filling their bellies, weakening their desires, and strengthening their bones. He always ensures the people are without knowledge and without lust, and that those with knowledge do not dare to act. Act through non-action (wú wéi), and nothing will remain ungoverned.',
   },
   4: {
     chinese:
