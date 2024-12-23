@@ -15,7 +15,7 @@ const dao = {
     chinese:
       '不尚賢，使民不爭；不貴難得之貨，使民不為盜；不見可欲，使心不亂。是以聖人之治，虛其心，實其腹，弱其志，強其骨。常使民無知無欲。使夫知者不敢為也。為無為，則無不治。',
     english:
-      'Do not exalt the worthy, so the people will not compete. Do not value rare treasures, so the people will not steal. Do not display what is desirable, so the hearts of the people will not be disturbed. Therefore, the sage governs by emptying their hearts, filling their bellies, weakening their desires, and strengthening their bones. He always ensures the people are without notions and without lust, and that those with notions do not dare to act. Act through non-action (wú wéi), and nothing will remain ungoverned.',
+      'Do not exalt the worthy, so the people will not compete. Do not value rare treasures, so the people will not steal. Do not display what is desirable, so the hearts of the people will not be disturbed. Therefore, the sage governs by emptying their hearts, filling their bellies, weakening their desires, and strengthening their bones. He always ensures the people are without notions and without lust, and that those with concepts do not dare to act. Act through non-action (wú wéi), and nothing will remain ungoverned.',
   },
   4: {
     chinese:
@@ -44,7 +44,7 @@ const dao = {
     chinese:
       '上善若水。水善利萬物而不爭，處衆人之所惡，故幾於道。居善地，心善淵，與善仁，言善信，正善治，事善能，動善時。夫唯不爭，故無尤。',
     english:
-      'The highest good is like water. Water benefits all things and does not compete. It dwells in places that others disdain, and therefore it is close to the Way. In dwelling, it is good to be on the earth; in the heart, it is good to be deep like a well; in association, it is good to be kind; in words, it is good to be sincere; in governance, it is good to be just; in work, it is good to be competent; in action, it is good to be timely. Because it does not compete, it is without blame.',
+      'The highest good is like water. Water benefits all things and does not compete. It dwells in places that others despise, and therefore it is close to the Way. In dwelling, it is good to be on the earth; in the heart, it is good to be deep like a well; in association, it is good to be kind; in words, it is good to be sincere; in governance, it is good to be just; in work, it is good to be competent; in action, it is good to be timely. Because it does not compete, it is without blame.',
   },
   9: {
     chinese:
@@ -56,7 +56,7 @@ const dao = {
     chinese:
       '載營魄抱一，能無離乎？專氣致柔，能嬰兒乎？滌除玄覽，能無疵乎？愛民治國，能無知乎？天門開闔，能為雌乎？明白四達，能無知乎？生之、畜之，生而不有，為而不恃，長而不宰，是謂玄德。',
     english:
-      'Can you carry and nourish your soul, holding onto unity, without departing from it? Can you focus your energy and make it soft, like an infant? Can you cleanse your mysterious vision, and remain without blemish? Can you love the people and govern the country, without relying on knowledge? Can you open and close the Gate of Heaven, and be like The Female? Can you be clear and bright, yet without knowledge? Give birth to them, nourish them, give birth but do not possess, act but do not rely, grow them but do not control; this is called the mysterious virtue.',
+      'Can you carry and nourish your soul, holding onto unity, without departing from it? Can you focus your energy and make it soft, like an infant? Can you cleanse your mysterious vision, and remain without blemish? Can you love the people and govern the country, without relying on knowledge? Can you open and close the Gate of Heaven, and be like The Female? Can you be clear and bright, yet without concepts? Give birth to them, nourish them, give birth but do not possess, act but do not rely, grow them but do not control; this is called the mysterious virtue.',
   },
   11: {
     chinese:
