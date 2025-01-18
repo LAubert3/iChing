@@ -817,15 +817,15 @@ const hexagrams = {
     name: '革 (Gé) - Revolution (Molting)',
     mainExplanation: {
       image:
-        'Fire in the lake: The image of revolution. Thus the superior man Sets the calendar in order And makes the seasons clear.',
-      text: 'Revolution. On your own day You are believed. Supreme success, furthering through perseverance. Remorse disappears.',
+        'Fire in the lake: The image of revolution. Thus the superior man sets the calendar in order and makes the seasons clear.',
+      text: 'Revolution. On your own day you are believed. Supreme success, furthering through perseverance. Remorse disappears.',
     },
     lineExplanations: [
       'Wrapped in the hide of a yellow cow.',
       "When one's own day comes, one may create revolution. Starting brings good fortune. No blame.",
       'Starting brings misfortune. Perseverance brings danger. When talk of revolution has gone the rounds three times, one may commit himself, and men will believe him.',
       'Remorse disappears. Men believe him. Changing the form of government brings good fortune.',
-      'The great man changes like a tiger. Even before he questions the oracle He is believed.',
+      'The great man changes like a tiger. Even before he questions the oracle, he is believed.',
       'The superior man changes like a panther. The inferior man molts in the face. Starting brings misfortune. To remain persevering brings good fortune.',
     ],
   },
@@ -1041,13 +1041,13 @@ const hexagrams = {
     name: '既濟 (Jì Jì) - After Completion',
     mainExplanation: {
       image:
-        'Water over fire: The image of the condition In after completion. Thus the superior man Takes thought of misfortune and arms himself against it in advance.',
-      text: 'After Completion. Success in small matters. Perseverance furthers. At the beginning good fortune, at the end disorder.',
+        'Water over fire: The image of the condition In after completion. Thus the superior man takes thought of misfortune and arms himself against it in advance.',
+      text: 'After Completion, success in small matters. Perseverance furthers. At the beginning good fortune; at the end disorder.',
     },
     lineExplanations: [
       'He breaks his wheels. He gets his tail in the water. No blame.',
-      'The woman loses the curtain of her carriage. Do not run after it; On the seventh day you will get it.',
-      "The Illustrious Ancestor Disciplines the Devil's Country. After three years he conquers it. Inferior people must not be employed.",
+      'The woman loses the curtain of her carriage. Do not run after it; on the seventh day you will get it.',
+      "The Illustrious Ancestor disciplines the Devil's Country. After three years he conquers it. Inferior people must not be employed.",
       'The finest clothes turn to rags. Be careful all day long.',
       'The neighbor in the east who slaughters an ox does not attain as much real happiness As the neighbor in the west with his simple sacrifice.',
       'He gets his head in the water. Danger.',
