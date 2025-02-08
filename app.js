@@ -770,7 +770,7 @@ const hexagrams = {
     mainExplanation: {
       image:
         'Within the earth, wood grows: The image of pushing upward. Thus the superior man of devoted character Heaps up small things In order to achieve something high and great.',
-      text: 'Pushing Upward has supreme success. One must see the great man. Fear not. Departure toward the south brings good fortune.',
+      text: 'Pushing upward has supreme success. One must see the great man. Fear not. Departure toward the south brings good fortune.',
     },
     lineExplanations: [
       'Pushing upward that meets with confidence brings great good fortune.',
