@@ -1041,7 +1041,7 @@ const hexagrams = {
     name: '既濟 (Jì Jì) - After Completion',
     mainExplanation: {
       image:
-        'Water over fire: The image of the condition In after completion. Thus the superior man takes thought of misfortune and arms himself against it in advance.',
+        'Water over fire: The image of the condition in after completion. Thus the superior man takes thought of misfortune and arms himself against it in advance.',
       text: 'After Completion, success in small matters. Perseverance furthers. At the beginning good fortune; at the end disorder.',
     },
     lineExplanations: [
