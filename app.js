@@ -561,7 +561,7 @@ const hexagrams = {
     name: '遯 (Dùn) - Retreat',
     mainExplanation: {
       image:
-        'Mountain under heaven: The image of retreat. Thus the superior man keeps the inferior man at a distance, Not angrily but with reserve.',
+        'Mountain under heaven: The image of retreat. Thus the superior man keeps the inferior man at a distance; not angrily, but with reserve.',
       text: 'Retreat. Success. In what is small, perseverance furthers.',
     },
     lineExplanations: [
