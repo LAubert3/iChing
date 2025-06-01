@@ -1220,6 +1220,12 @@ const autoCover = document.getElementById('autoCover')
 autoCover.style.display = 'none'
 
 auto.addEventListener('click', async function () {
+  clearHex(one)
+  clearHex(two)
+  clearHex(three)
+  clearHex(four)
+  clearHex(five)
+  clearHex(six)
   loadIcon.style.display = 'inline'
   auto.style.display = 'none'
   autoCover.style.display = 'inline'
