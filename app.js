@@ -1651,14 +1651,14 @@ const expand = document.getElementById('expand')
 
 function expandOutput() {
   const output = document.getElementById('output')
-  const expandedHeight = 1300
   const collapsedHeight = 200
-  const currentHeight = parseInt(window.getComputedStyle(output).height, 10)
+  const isCollapsed = parseInt(window.getComputedStyle(output).height, 10) <= collapsedHeight
 
   output.style.transition = 'height 0.5s ease'
 
-  if (currentHeight <= collapsedHeight) {
-    output.style.height = expandedHeight + 'px'
+  if (isCollapsed) {
+    const fullHeight = output.scrollHeight
+    output.style.height = fullHeight + 'px'
   } else {
     output.style.height = collapsedHeight + 'px'
   }
