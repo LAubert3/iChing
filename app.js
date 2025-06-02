@@ -1607,13 +1607,13 @@ clear.addEventListener('mouseout', function () {
 
 clear.addEventListener('click', function () {
   if (!autoWasClicked) {
-  clearHex(one)
-  clearHex(two)
-  clearHex(three)
-  clearHex(four)
-  clearHex(five)
-  clearHex(six)
-  centerText.style.visibility = 'visible'
+    clearHex(one)
+    clearHex(two)
+    clearHex(three)
+    clearHex(four)
+    clearHex(five)
+    clearHex(six)
+    centerText.style.visibility = 'visible'
   }
 })
 
@@ -1644,4 +1644,26 @@ tooltip.addEventListener('mouseover', () => {
 tooltip.addEventListener('mouseout', () => {
   tooltip.style.opacity = '0'
   tooltip.style.visibility = 'hidden'
+})
+
+//expand
+const expand = document.getElementById('expand')
+
+function expandOutput() {
+  const output = document.getElementById('output')
+  const expandedHeight = 1300
+  const collapsedHeight = 200
+  const currentHeight = parseInt(window.getComputedStyle(output).height, 10)
+
+  output.style.transition = 'height 0.5s ease'
+
+  if (currentHeight <= collapsedHeight) {
+    output.style.height = expandedHeight + 'px'
+  } else {
+    output.style.height = collapsedHeight + 'px'
+  }
+}
+
+expand.addEventListener('click', function() {
+  expandOutput()
 })

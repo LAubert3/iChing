@@ -274,6 +274,25 @@
         width: 140;
         z-index: 1;
       }
+
+      #expand {
+        height: 20px;
+        padding: 3px;
+        position: absolute;
+        right: 7%;
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0);
+      }
+
+      #expand:hover {
+        background-color: rgb(235, 176, 98);
+      }
+
+      @media screen and (max-width: 600px) {
+        #expand {
+          right: 2.5%;
+        }
+      }
     </style>
   </head>
   <body>
@@ -374,6 +393,7 @@
 
       <div id="output-container" class="container">
         <div class="container" id="output">
+          <img id="expand" src="img/expand.png" alt="" />
           <span id="name"></span>
           <span id="mainImg"></span>
           <span id="main"></span>
