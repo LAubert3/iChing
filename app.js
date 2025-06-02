@@ -1219,7 +1219,9 @@ input.addEventListener('focus', function () {
 const autoCover = document.getElementById('autoCover')
 autoCover.style.display = 'none'
 
+let autoWasClicked = false
 auto.addEventListener('click', async function () {
+  autoWasClicked = true
   loadIcon.style.display = 'inline'
   auto.style.display = 'none'
   autoCover.style.display = 'inline'
@@ -1288,6 +1290,7 @@ auto.addEventListener('click', async function () {
   clearHex(six)
   centerText.style.visibility = 'hidden'
   await processRandomNumbers()
+  autoWasClicked = false
 })
 
 auto.addEventListener('mouseenter', function () {
@@ -1603,6 +1606,7 @@ clear.addEventListener('mouseout', function () {
 })
 
 clear.addEventListener('click', function () {
+  if (!autoWasClicked) {
   clearHex(one)
   clearHex(two)
   clearHex(three)
@@ -1610,6 +1614,7 @@ clear.addEventListener('click', function () {
   clearHex(five)
   clearHex(six)
   centerText.style.visibility = 'visible'
+  }
 })
 
 //info icon
