@@ -1220,12 +1220,6 @@ const autoCover = document.getElementById('autoCover')
 autoCover.style.display = 'none'
 
 auto.addEventListener('click', async function () {
-  clearHex(one)
-  clearHex(two)
-  clearHex(three)
-  clearHex(four)
-  clearHex(five)
-  clearHex(six)
   loadIcon.style.display = 'inline'
   auto.style.display = 'none'
   autoCover.style.display = 'inline'
@@ -1255,7 +1249,6 @@ auto.addEventListener('click', async function () {
           id: 1,
         }),
       })
-
       const data = await response.json()
       const randomNumber = data.result.random.data[0]
       console.log('Random Number: ' + randomNumber)
@@ -1287,6 +1280,13 @@ auto.addEventListener('click', async function () {
     handleStartAndIcon()
   }
 
+  clearHex(one)
+  clearHex(two)
+  clearHex(three)
+  clearHex(four)
+  clearHex(five)
+  clearHex(six)
+  centerText.style.visibility = 'hidden'
   await processRandomNumbers()
 })
 
