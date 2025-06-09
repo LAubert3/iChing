@@ -1652,7 +1652,8 @@ const expand = document.getElementById('expand')
 function expandOutput() {
   const output = document.getElementById('output')
   const collapsedHeight = 200
-  const isCollapsed = parseInt(window.getComputedStyle(output).height, 10) <= collapsedHeight
+  const isCollapsed =
+    parseInt(window.getComputedStyle(output).height, 10) <= collapsedHeight
 
   output.style.transition = 'height 0.5s ease'
 
@@ -1664,6 +1665,19 @@ function expandOutput() {
   }
 }
 
-expand.addEventListener('click', function() {
+expand.addEventListener('click', function () {
   expandOutput()
+})
+
+document.getElementById('copy').addEventListener('click', function () {
+  var textCopy = document.getElementById('output').innerText
+
+  navigator.clipboard.writeText(textCopy).then(
+    function () {
+      console.log('Text copied to clipboard')
+    },
+    function (err) {
+      console.error('Error copying text: ', err)
+    }
+  )
 })

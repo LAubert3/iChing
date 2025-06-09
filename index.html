@@ -307,9 +307,34 @@
         background-color: rgb(235, 176, 98);
       }
 
+      #copy {
+        height: 20px;
+        padding: 3px;
+        position: absolute;
+        right: 10%;
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0);
+      }
+
+      #copy:hover {
+        background-color: rgb(235, 176, 98);
+      }
+
       @media screen and (max-width: 600px) {
+        #expand:hover, #copy:hover {
+          background-color: rgba(0, 0, 0, 0);
+        }
+
+        #expand:active, #copy:active {
+          background-color: rgb(235, 176, 98);
+        }
+
         #expand {
           right: 2.5%;
+        }
+
+        #copy {
+          right: 15%;
         }
       }
     </style>
@@ -412,6 +437,7 @@
 
       <div id="output-container" class="container">
         <div class="container" id="output">
+          <img id="copy" src="img/copy.png" alt="">
           <img id="expand" src="img/expand.png" alt="" />
           <span id="name"></span>
           <span id="mainImg"></span>
