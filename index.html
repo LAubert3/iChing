@@ -300,11 +300,6 @@
         position: absolute;
         right: 7%;
         cursor: pointer;
-        background-color: rgba(0, 0, 0, 0);
-      }
-
-      #expand:hover {
-        background-color: rgb(235, 176, 98);
       }
 
       #copy {
@@ -313,22 +308,27 @@
         position: absolute;
         right: 10%;
         cursor: pointer;
-        background-color: rgba(0, 0, 0, 0);
       }
 
-      #copy:hover {
+      #expand,
+      #copy {
+        background-color: rgba(0, 0, 0, 0);
+        transition: background-color 0.2s ease;
+      }
+
+      @media (hover: hover) and (pointer: fine) {
+        #expand:hover,
+        #copy:hover {
+          background-color: rgb(235, 176, 98);
+        }
+      }
+
+      #expand:active,
+      #copy:active {
         background-color: rgb(235, 176, 98);
       }
 
       @media screen and (max-width: 600px) {
-        #expand:hover, #copy:hover {
-          background-color: rgba(0, 0, 0, 0);
-        }
-
-        #expand:active, #copy:active {
-          background-color: rgb(235, 176, 98);
-        }
-
         #expand {
           right: 2.5%;
         }
@@ -437,7 +437,7 @@
 
       <div id="output-container" class="container">
         <div class="container" id="output">
-          <img id="copy" src="img/copy.png" alt="">
+          <img id="copy" src="img/copy.png" alt="" />
           <img id="expand" src="img/expand.png" alt="" />
           <span id="name"></span>
           <span id="mainImg"></span>
