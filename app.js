@@ -1672,12 +1672,12 @@ expand.addEventListener('click', function () {
 document.getElementById('copy').addEventListener('click', function () {
   var textCopy = document.getElementById('output').innerText
 
-  navigator.clipboard.writeText(textCopy).then(
-    function () {
-      console.log('Text copied to clipboard')
-    },
-    function (err) {
-      console.error('Error copying text: ', err)
-    }
-  )
+  var textarea = document.createElement('textarea')
+  textarea.value = textCopy
+  document.body.appendChild(textarea)
+  textarea.select()
+  document.execCommand('copy')
+  document.body.removeChild(textarea)
+
+  console.log('Text copied')
 })
