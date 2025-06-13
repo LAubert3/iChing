@@ -499,9 +499,39 @@ function readDao() {
       daoCanvas.appendChild(chineseVerse)
       daoCanvas.appendChild(englishVerse)
       chapter.innerHTML += `章: ${i}`
+      chapter.id = `章: ${i}`
       chineseVerse.innerHTML += `${dao[i].chinese}`
       englishVerse.innerHTML += `${dao[i].english}`
     }
   }
 }
 readDao()
+
+function populateChapters() {
+  const select = document.getElementById('chapter-select')
+  for (let i = 1; i <= 81; i++) {
+    const option = document.createElement('option')
+    option.value = i
+    option.textContent = `${i}`
+    select.appendChild(option)
+  }
+}
+document.addEventListener('DOMContentLoaded', populateChapters)
+
+const chapterSelect = document.getElementById('chapter-select')
+let chosenChapter = '1'
+
+function scroll() {
+  const target = document.getElementById(`章: ${chosenChapter}`)
+  if (target) {
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
+}
+
+chapterSelect.addEventListener('click', function () {
+  if(chosenChapter !== chapterSelect.value) {
+    chosenChapter = chapterSelect.value
+    scroll()
+    window.scrollTo({ top: 0, behavior: 'instant' })
+  }
+})
